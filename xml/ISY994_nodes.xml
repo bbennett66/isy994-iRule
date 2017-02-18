@@ -1,0 +1,2247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes>
+    <root></root>
+    <folder flag="0">
+        <address>305</address>
+        <name>Fans</name>
+    </folder>
+    <folder flag="0">
+        <address>5081</address>
+        <name>Noise</name>
+    </folder>
+    <folder flag="0">
+        <address>51806</address>
+        <name>Alarm</name>
+    </folder>
+    <node flag="128">
+        <address>ZW002_1</address>
+        <name>FrontEntry</name>
+        <family>4</family>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW002_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12338</mfg>
+            <cat>121</cat>
+        </devtype>
+        <ELK_ID>A03</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="78"/>
+    </node>
+    <node flag="0">
+        <address>ZW002_119</address>
+        <name>ZW 002 Multilevel Switch</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW002_1</pnode>
+        <sgid>119</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12338</mfg>
+            <cat>119</cat>
+        </devtype>
+        <ELK_ID>D03</ELK_ID>
+        <property id="ST" value=" " formatted=" " uom="51"/>
+    </node>
+    <node flag="128">
+        <address>ZW003_1</address>
+        <name>FrontOutdoor</name>
+        <family>4</family>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW003_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12338</mfg>
+            <cat>121</cat>
+        </devtype>
+        <ELK_ID>A04</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="78"/>
+    </node>
+    <node flag="0">
+        <address>ZW003_118</address>
+        <name>ZW 003 Multilevel Sensor</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW003_1</pnode>
+        <sgid>118</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12338</mfg>
+            <cat>118</cat>
+        </devtype>
+        <ELK_ID>D02</ELK_ID>
+    </node>
+    <node flag="0">
+        <address>ZW003_119</address>
+        <name>ZW 003 Multilevel Switch</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW003_1</pnode>
+        <sgid>119</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12338</mfg>
+            <cat>119</cat>
+        </devtype>
+        <ELK_ID>D16</ELK_ID>
+        <property id="ST" value="15" formatted="15%" uom="51"/>
+    </node>
+    <node flag="0">
+        <address>ZW003_140</address>
+        <name>ZW 003 Thermostat</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW003_1</pnode>
+        <sgid>140</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12338</mfg>
+            <cat>140</cat>
+        </devtype>
+        <ELK_ID>B06</ELK_ID>
+        <property id="CLIMD" value="0" formatted="Off" uom="67"/>
+        <property id="CLISPH" value="60" formatted="60℉" uom="17"/>
+    </node>
+    <node flag="128">
+        <address>ZW004_1</address>
+        <name>FrontPatio</name>
+        <family>4</family>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW004_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12338</mfg>
+            <cat>121</cat>
+        </devtype>
+        <ELK_ID>A05</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="78"/>
+    </node>
+    <node flag="0">
+        <address>ZW004_118</address>
+        <name>ZW 004 Multilevel Sensor</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW004_1</pnode>
+        <sgid>118</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12338</mfg>
+            <cat>118</cat>
+        </devtype>
+        <ELK_ID>C13</ELK_ID>
+    </node>
+    <node flag="0">
+        <address>ZW004_119</address>
+        <name>ZW 004 Multilevel Switch</name>
+        <family>4</family>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW004_1</pnode>
+        <sgid>119</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12338</mfg>
+            <cat>119</cat>
+        </devtype>
+        <ELK_ID>H06</ELK_ID>
+        <property id="ST" value="30" formatted="30%" uom="51"/>
+    </node>
+    <node flag="0">
+        <address>ZW004_140</address>
+        <name>ZW 004 Thermostat</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW004_1</pnode>
+        <sgid>140</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12338</mfg>
+            <cat>140</cat>
+        </devtype>
+        <ELK_ID>D06</ELK_ID>
+        <property id="CLIMD" value=" " formatted=" " uom="67"/>
+        <property id="CLISPH" value=" " formatted=" " uom="17"/>
+    </node>
+    <node flag="128">
+        <address>ZW005_1</address>
+        <name>FrontChanDim</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW005_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>109</cat>
+        </devtype>
+        <ELK_ID>A06</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="51"/>
+    </node>
+    <node flag="0">
+        <address>ZW005_147</address>
+        <name>ZW 005 Binary Switch</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW005_1</pnode>
+        <sgid>147</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>147</cat>
+        </devtype>
+        <ELK_ID>C15</ELK_ID>
+        <property id="ST" value=" " formatted=" " uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW006_1</address>
+        <name>MstrBdRmDim</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW006_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>109</cat>
+        </devtype>
+        <ELK_ID>A07</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="51"/>
+    </node>
+    <node flag="0">
+        <address>ZW006_147</address>
+        <name>ZW 006 Binary Switch</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW006_1</pnode>
+        <sgid>147</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>147</cat>
+        </devtype>
+        <ELK_ID>E12</ELK_ID>
+        <property id="ST" value=" " formatted=" " uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW007_1</address>
+        <name>LivingRmDim</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW007_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>109</cat>
+        </devtype>
+        <ELK_ID>A08</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="51"/>
+    </node>
+    <node flag="128">
+        <address>ZW008_1</address>
+        <name>BkYdDnPatioDim</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW008_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>109</cat>
+        </devtype>
+        <ELK_ID>A09</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="51"/>
+    </node>
+    <node flag="0">
+        <address>ZW008_118</address>
+        <name>ZW 008 Multilevel Sensor</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW008_1</pnode>
+        <sgid>118</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>118</cat>
+        </devtype>
+        <ELK_ID>G14</ELK_ID>
+    </node>
+    <node flag="0">
+        <address>ZW008_140</address>
+        <name>ZW 008 Thermostat</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW008_1</pnode>
+        <sgid>140</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>140</cat>
+        </devtype>
+        <ELK_ID>D07</ELK_ID>
+        <property id="CLISPH" value=" " formatted=" " uom="17"/>
+    </node>
+    <node flag="0">
+        <address>ZW008_144</address>
+        <name>ZW 008 Pulse Meter</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW008_1</pnode>
+        <sgid>144</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>144</cat>
+        </devtype>
+        <ELK_ID>E05</ELK_ID>
+    </node>
+    <node flag="0">
+        <address>ZW008_147</address>
+        <name>ZW 008 Binary Switch</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW008_1</pnode>
+        <sgid>147</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>147</cat>
+        </devtype>
+        <ELK_ID>G09</ELK_ID>
+        <property id="ST" value=" " formatted=" " uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW009_1</address>
+        <name>BkYardDim</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW009_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>109</cat>
+        </devtype>
+        <ELK_ID>A10</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="51"/>
+    </node>
+    <node flag="0">
+        <address>ZW009_118</address>
+        <name>ZW 009 Multilevel Sensor</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW009_1</pnode>
+        <sgid>118</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>118</cat>
+        </devtype>
+        <ELK_ID>C16</ELK_ID>
+    </node>
+    <node flag="0">
+        <address>ZW009_140</address>
+        <name>ZW 009 Thermostat</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW009_1</pnode>
+        <sgid>140</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>140</cat>
+        </devtype>
+        <ELK_ID>D01</ELK_ID>
+        <property id="CLIMD" value=" " formatted=" " uom="67"/>
+        <property id="CLISPC" value=" " formatted=" " uom="17"/>
+        <property id="CLISPH" value=" " formatted=" " uom="17"/>
+    </node>
+    <node flag="0">
+        <address>ZW009_147</address>
+        <name>ZW 009 Binary Switch</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW009_1</pnode>
+        <sgid>147</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>147</cat>
+        </devtype>
+        <ELK_ID>G06</ELK_ID>
+        <property id="ST" value="100" formatted="On" uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW010_1</address>
+        <name>BkYdPupDim</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW010_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>109</cat>
+        </devtype>
+        <ELK_ID>A12</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="51"/>
+    </node>
+    <node flag="0">
+        <address>ZW010_140</address>
+        <name>ZW 010 Thermostat</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW010_1</pnode>
+        <sgid>140</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>140</cat>
+        </devtype>
+        <ELK_ID>D04</ELK_ID>
+        <property id="CLIMD" value=" " formatted=" " uom="67"/>
+        <property id="CLISPH" value="15360" formatted="15360℉" uom="17"/>
+    </node>
+    <node flag="0">
+        <address>ZW010_184</address>
+        <name>ZW 010 Barrier</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW010_1</pnode>
+        <sgid>184</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>184</cat>
+        </devtype>
+        <ELK_ID>D10</ELK_ID>
+        <property id="ST" value=" " formatted=" " uom="97"/>
+    </node>
+    <node flag="128">
+        <address>ZW011_1</address>
+        <name>KitchenThermostat</name>
+        <family>4</family>
+        <type>4.8.6.0</type>
+        <enabled>true</enabled>
+        <deviceClass>1</deviceClass>
+        <wattage>1000</wattage>
+        <dcPeriod>60</dcPeriod>
+        <pnode>ZW011_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.8.6</gen>
+            <mfg>57.17.1</mfg>
+            <cat>140</cat>
+        </devtype>
+        <ELK_ID>A13</ELK_ID>
+        <property id="ST" value="65" formatted="65℉" uom="17"/>
+        <property id="CLIMD" value="0" formatted="Off" uom="67"/>
+        <property id="CLISPC" value="80" formatted="80℉" uom="17"/>
+        <property id="CLISPH" value="60" formatted="60℉" uom="17"/>
+    </node>
+    <node flag="0">
+        <address>ZW011_144</address>
+        <name>ZW 011 Pulse Meter</name>
+        <family>4</family>
+        <type>4.8.6.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW011_1</pnode>
+        <sgid>144</sgid>
+        <devtype>
+            <gen>4.8.6</gen>
+            <mfg>57.17.1</mfg>
+            <cat>144</cat>
+        </devtype>
+        <ELK_ID>G16</ELK_ID>
+    </node>
+    <node flag="0">
+        <address>ZW011_147</address>
+        <name>ZW 011 Binary Switch</name>
+        <family>4</family>
+        <type>4.8.6.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW011_1</pnode>
+        <sgid>147</sgid>
+        <devtype>
+            <gen>4.8.6</gen>
+            <mfg>57.17.1</mfg>
+            <cat>147</cat>
+        </devtype>
+        <ELK_ID>G10</ELK_ID>
+        <property id="ST" value="100" formatted="On" uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW012_1</address>
+        <name>MstrBdRmThermostat</name>
+        <family>4</family>
+        <type>4.8.6.0</type>
+        <enabled>true</enabled>
+        <deviceClass>1</deviceClass>
+        <wattage>1000</wattage>
+        <dcPeriod>60</dcPeriod>
+        <pnode>ZW012_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.8.6</gen>
+            <mfg>57.17.1</mfg>
+            <cat>140</cat>
+        </devtype>
+        <ELK_ID>A14</ELK_ID>
+        <property id="ST" value="67" formatted="67℉" uom="17"/>
+        <property id="CLIMD" value="0" formatted="Off" uom="67"/>
+        <property id="CLISPC" value="80" formatted="80℉" uom="17"/>
+        <property id="CLISPH" value="60" formatted="60℉" uom="17"/>
+    </node>
+    <node flag="0">
+        <address>ZW012_118</address>
+        <name>ZW 012 Multilevel Sensor</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.8.6.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW012_1</pnode>
+        <sgid>118</sgid>
+        <devtype>
+            <gen>4.8.6</gen>
+            <mfg>57.17.1</mfg>
+            <cat>118</cat>
+        </devtype>
+        <ELK_ID>E07</ELK_ID>
+    </node>
+    <node flag="0">
+        <address>ZW012_119</address>
+        <name>ZW 012 Multilevel Switch</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.8.6.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW012_1</pnode>
+        <sgid>119</sgid>
+        <devtype>
+            <gen>4.8.6</gen>
+            <mfg>57.17.1</mfg>
+            <cat>119</cat>
+        </devtype>
+        <ELK_ID>D11</ELK_ID>
+        <property id="ST" value=" " formatted=" " uom="51"/>
+    </node>
+    <node flag="0">
+        <address>ZW012_147</address>
+        <name>ZW 012 Binary Switch</name>
+        <family>4</family>
+        <type>4.8.6.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW012_1</pnode>
+        <sgid>147</sgid>
+        <devtype>
+            <gen>4.8.6</gen>
+            <mfg>57.17.1</mfg>
+            <cat>147</cat>
+        </devtype>
+        <ELK_ID>G12</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW013_1</address>
+        <name>ZW 013 Unresponsive Device</name>
+        <family>4</family>
+        <type>0.0.0.0</type>
+        <enabled>false</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW013_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>0.0.0</gen>
+            <mfg>0.0.0</mfg>
+            <cat>0</cat>
+        </devtype>
+        <ELK_ID>G15</ELK_ID>
+    </node>
+    <node flag="128">
+        <address>ZW014_1</address>
+        <name>KitchenDim</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW014_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>109</cat>
+        </devtype>
+        <ELK_ID>B03</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="51"/>
+    </node>
+    <node flag="0">
+        <address>ZW014_118</address>
+        <name>ZW 014 Multilevel Sensor</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW014_1</pnode>
+        <sgid>118</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>118</cat>
+        </devtype>
+        <ELK_ID>G11</ELK_ID>
+    </node>
+    <node flag="0">
+        <address>ZW014_140</address>
+        <name>ZW 014 Thermostat</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW014_1</pnode>
+        <sgid>140</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>140</cat>
+        </devtype>
+        <ELK_ID>G13</ELK_ID>
+        <property id="CLIMD" value=" " formatted=" " uom="67"/>
+    </node>
+    <node flag="0">
+        <address>ZW014_147</address>
+        <name>ZW 014 Binary Switch</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW014_1</pnode>
+        <sgid>147</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>147</cat>
+        </devtype>
+        <ELK_ID>G02</ELK_ID>
+        <property id="ST" value=" " formatted=" " uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW015_1</address>
+        <name>BkYdPatioFans</name>
+        <family>4</family>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW015_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12338</mfg>
+            <cat>121</cat>
+        </devtype>
+        <ELK_ID>B04</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="78"/>
+    </node>
+    <node flag="0">
+        <address>ZW015_118</address>
+        <name>ZW 015 Multilevel Sensor</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW015_1</pnode>
+        <sgid>118</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12338</mfg>
+            <cat>118</cat>
+        </devtype>
+        <ELK_ID>D14</ELK_ID>
+    </node>
+    <node flag="0">
+        <address>ZW015_140</address>
+        <name>ZW 015 Thermostat</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW015_1</pnode>
+        <sgid>140</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12338</mfg>
+            <cat>140</cat>
+        </devtype>
+        <ELK_ID>D15</ELK_ID>
+        <property id="CLIMD" value="0" formatted="Off" uom="67"/>
+    </node>
+    <node flag="128">
+        <address>ZW016_1</address>
+        <name>BkYdColumnDim</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW016_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>109</cat>
+        </devtype>
+        <ELK_ID>B05</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="51"/>
+    </node>
+    <node flag="128">
+        <address>ZW018_1</address>
+        <name>BkYdBarDim</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW018_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>109</cat>
+        </devtype>
+        <ELK_ID>B07</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="51"/>
+    </node>
+    <node flag="128">
+        <address>ZW019_1</address>
+        <name>BkYdSittingDim</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW019_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>109</cat>
+        </devtype>
+        <ELK_ID>B08</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="51"/>
+    </node>
+    <node flag="128">
+        <address>ZW020_1</address>
+        <name>KitchenDoggyDoorPlug</name>
+        <family>4</family>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW020_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12337</mfg>
+            <cat>121</cat>
+        </devtype>
+        <ELK_ID>B09</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW021_1</address>
+        <name>BkYdLandscapeLights</name>
+        <family>4</family>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW021_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.20304.12337</mfg>
+            <cat>121</cat>
+        </devtype>
+        <ELK_ID>A16</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="78"/>
+    </node>
+    <node flag="0">
+        <address>ZW021_119</address>
+        <name>ZW 021 Multilevel Switch</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW021_1</pnode>
+        <sgid>119</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.20304.12337</mfg>
+            <cat>119</cat>
+        </devtype>
+        <ELK_ID>E13</ELK_ID>
+        <property id="ST" value=" " formatted=" " uom="51"/>
+    </node>
+    <node flag="128">
+        <address>ZW022_1</address>
+        <name>GreatRoomDim</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW022_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>109</cat>
+        </devtype>
+        <ELK_ID>B02</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="51"/>
+    </node>
+    <node flag="0">
+        <address>ZW022_147</address>
+        <name>ZW 022 Binary Switch</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW022_1</pnode>
+        <sgid>147</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>147</cat>
+        </devtype>
+        <ELK_ID>H04</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW023_1</address>
+        <name>GarageSiren</name>
+        <family>4</family>
+        <type>4.16.5.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW023_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.16.5</gen>
+            <mfg>134.260.80</mfg>
+            <cat>137</cat>
+        </devtype>
+        <ELK_ID>B10</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="78"/>
+    </node>
+    <node flag="0">
+        <address>ZW023_119</address>
+        <name>ZW 023 Multilevel Switch</name>
+        <family>4</family>
+        <type>4.16.5.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW023_1</pnode>
+        <sgid>119</sgid>
+        <devtype>
+            <gen>4.16.5</gen>
+            <mfg>134.260.80</mfg>
+            <cat>119</cat>
+        </devtype>
+        <ELK_ID>G07</ELK_ID>
+        <property id="ST" value=" " formatted=" " uom="51"/>
+    </node>
+    <node flag="128">
+        <address>ZW024_1</address>
+        <name>FrontYdLandscapeLights</name>
+        <family>4</family>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW024_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.20304.12337</mfg>
+            <cat>121</cat>
+        </devtype>
+        <ELK_ID>B11</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW025_1</address>
+        <name>DoubleGarageOpen</name>
+        <family>4</family>
+        <type>4.32.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW025_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.32.1</gen>
+            <mfg>330.1.3</mfg>
+            <cat>104</cat>
+        </devtype>
+        <ELK_ID>B12</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="78"/>
+    </node>
+    <node flag="0">
+        <address>ZW025_157</address>
+        <name>DoubleGarageOpenTamper</name>
+        <family>4</family>
+        <type>4.32.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW025_1</pnode>
+        <sgid>157</sgid>
+        <devtype>
+            <gen>4.32.1</gen>
+            <mfg>330.1.3</mfg>
+            <cat>157</cat>
+        </devtype>
+        <ELK_ID>B13</ELK_ID>
+        <property id="ST" value=" " formatted=" " uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW026_1</address>
+        <name>PoolLights</name>
+        <family>4</family>
+        <type>4.16.3.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW026_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.16.3</gen>
+            <mfg>335.21062.12595</mfg>
+            <cat>122</cat>
+        </devtype>
+        <ELK_ID>B15</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="78"/>
+    </node>
+    <node flag="0">
+        <address>ZW026_119</address>
+        <name>ZW 026 Multilevel Switch</name>
+        <family>4</family>
+        <type>4.16.3.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW026_1</pnode>
+        <sgid>119</sgid>
+        <devtype>
+            <gen>4.16.3</gen>
+            <mfg>335.21062.12595</mfg>
+            <cat>119</cat>
+        </devtype>
+        <ELK_ID>G05</ELK_ID>
+        <property id="ST" value=" " formatted=" " uom="51"/>
+    </node>
+    <node flag="128">
+        <address>ZW027_1</address>
+        <name>LivingRmAccentDim</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW027_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.20548.12337</mfg>
+            <cat>109</cat>
+        </devtype>
+        <ELK_ID>B16</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="51"/>
+    </node>
+    <node flag="0">
+        <address>ZW027_118</address>
+        <name>ZW 027 Multilevel Sensor</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW027_1</pnode>
+        <sgid>118</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.20548.12337</mfg>
+            <cat>118</cat>
+        </devtype>
+        <ELK_ID>D09</ELK_ID>
+    </node>
+    <node flag="128">
+        <address>ZW028_1</address>
+        <name>LvingRoomFireplaceAccentDim</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW028_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>109</cat>
+        </devtype>
+        <ELK_ID>C02</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="51"/>
+    </node>
+    <node flag="0">
+        <address>ZW028_140</address>
+        <name>ZW 028 Thermostat</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW028_1</pnode>
+        <sgid>140</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>140</cat>
+        </devtype>
+        <ELK_ID>D05</ELK_ID>
+        <property id="CLIMD" value=" " formatted=" " uom="67"/>
+        <property id="CLISPH" value=" " formatted=" " uom="17"/>
+    </node>
+    <node flag="128">
+        <address>ZW029_1</address>
+        <name>KitchenUnderCabinet</name>
+        <family>4</family>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW029_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12338</mfg>
+            <cat>121</cat>
+        </devtype>
+        <ELK_ID>C03</ELK_ID>
+        <property id="ST" value="100" formatted="On" uom="78"/>
+    </node>
+    <node flag="0">
+        <address>ZW029_104</address>
+        <name>ZW 029 Binary Sensor</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW029_1</pnode>
+        <sgid>104</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12338</mfg>
+            <cat>104</cat>
+        </devtype>
+        <ELK_ID>E11</ELK_ID>
+        <property id="ST" value=" " formatted=" " uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW030_1</address>
+        <name>KitchenNookAccentDim</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW030_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>109</cat>
+        </devtype>
+        <ELK_ID>C04</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="51"/>
+    </node>
+    <node flag="128">
+        <address>ZW031_1</address>
+        <name>GarageEntryDim</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW031_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>109</cat>
+        </devtype>
+        <ELK_ID>C05</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="51"/>
+    </node>
+    <node flag="0">
+        <address>ZW031_147</address>
+        <name>ZW 031 Binary Switch</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW031_1</pnode>
+        <sgid>147</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>147</cat>
+        </devtype>
+        <ELK_ID>G04</ELK_ID>
+        <property id="ST" value="100" formatted="On" uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW032_1</address>
+        <name>OfficeAccent</name>
+        <family>4</family>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW032_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12337</mfg>
+            <cat>121</cat>
+        </devtype>
+        <ELK_ID>C06</ELK_ID>
+        <property id="ST" value="100" formatted="On" uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW033_1</address>
+        <name>OfficeFan</name>
+        <family>4</family>
+        <parent type="3">305</parent>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW033_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12337</mfg>
+            <cat>121</cat>
+        </devtype>
+        <ELK_ID>C07</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW034_1</address>
+        <name>LibraryFan</name>
+        <family>4</family>
+        <parent type="3">305</parent>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW034_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12337</mfg>
+            <cat>121</cat>
+        </devtype>
+        <ELK_ID>C08</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="78"/>
+    </node>
+    <node flag="0">
+        <address>ZW034_140</address>
+        <name>ZW 034 Thermostat</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW034_1</pnode>
+        <sgid>140</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12337</mfg>
+            <cat>140</cat>
+        </devtype>
+        <ELK_ID>D13</ELK_ID>
+    </node>
+    <node flag="128">
+        <address>ZW035_1</address>
+        <name>MstrBdRmFan</name>
+        <family>4</family>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW035_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12337</mfg>
+            <cat>121</cat>
+        </devtype>
+        <ELK_ID>B01</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW036_1</address>
+        <name>GreatRoomLampsDim</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW036_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.20548.12337</mfg>
+            <cat>109</cat>
+        </devtype>
+        <ELK_ID>B14</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="51"/>
+    </node>
+    <node flag="0">
+        <address>ZW036_147</address>
+        <name>ZW 036 Binary Switch</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW036_1</pnode>
+        <sgid>147</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.20548.12337</mfg>
+            <cat>147</cat>
+        </devtype>
+        <ELK_ID>E14</ELK_ID>
+        <property id="ST" value=" " formatted=" " uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW037_1</address>
+        <name>KitchenPantryLight</name>
+        <family>4</family>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW037_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.18770.12338</mfg>
+            <cat>121</cat>
+        </devtype>
+        <ELK_ID>C10</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW038_1</address>
+        <name>KitchenPantryDoorOpen - Notif</name>
+        <family>4</family>
+        <type>4.7.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW038_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.7.1</gen>
+            <mfg>134.258.89</mfg>
+            <cat>185</cat>
+        </devtype>
+        <ELK_ID>C11</ELK_ID>
+    </node>
+    <node flag="0">
+        <address>ZW038_104</address>
+        <name>KitchenPantryDoorOpenSensor</name>
+        <family>4</family>
+        <type>4.7.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW038_1</pnode>
+        <sgid>104</sgid>
+        <devtype>
+            <gen>4.7.1</gen>
+            <mfg>134.258.89</mfg>
+            <cat>104</cat>
+        </devtype>
+        <ELK_ID>C12</ELK_ID>
+        <property id="ST" value=" " formatted=" " uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW039_1</address>
+        <name>LivingRmLampsDim</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW039_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>109</cat>
+        </devtype>
+        <ELK_ID>C14</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="51"/>
+    </node>
+    <node flag="0">
+        <address>ZW039_147</address>
+        <name>ZW 039 Binary Switch</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW039_1</pnode>
+        <sgid>147</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>147</cat>
+        </devtype>
+        <ELK_ID>D08</ELK_ID>
+        <property id="ST" value=" " formatted=" " uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW040_1</address>
+        <name>BkYdCookDim</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW040_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>109</cat>
+        </devtype>
+        <ELK_ID>D12</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="51"/>
+    </node>
+    <node flag="0">
+        <address>ZW040_140</address>
+        <name>ZW 040 Thermostat</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW040_1</pnode>
+        <sgid>140</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>140</cat>
+        </devtype>
+        <ELK_ID>E04</ELK_ID>
+    </node>
+    <node flag="0">
+        <address>ZW040_147</address>
+        <name>ZW 040 Binary Switch</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW040_1</pnode>
+        <sgid>147</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>147</cat>
+        </devtype>
+        <ELK_ID>E10</ELK_ID>
+        <property id="ST" value="100" formatted="On" uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW041_1</address>
+        <name>TheaterFan</name>
+        <family>4</family>
+        <parent type="3">305</parent>
+        <type>4.16.3.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW041_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.16.3</gen>
+            <mfg>335.21072.12336</mfg>
+            <cat>122</cat>
+        </devtype>
+        <ELK_ID>E01</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="78"/>
+    </node>
+    <node flag="0">
+        <address>ZW041_119</address>
+        <name>ZW 041 Multilevel Switch</name>
+        <family>4</family>
+        <type>4.16.3.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW041_1</pnode>
+        <sgid>119</sgid>
+        <devtype>
+            <gen>4.16.3</gen>
+            <mfg>335.21072.12336</mfg>
+            <cat>119</cat>
+        </devtype>
+        <ELK_ID>H02</ELK_ID>
+        <property id="ST" value="20" formatted="20%" uom="51"/>
+    </node>
+    <node flag="0">
+        <address>ZW041_140</address>
+        <name>ZW 041 Thermostat</name>
+        <family>4</family>
+        <parent type="3">5081</parent>
+        <type>4.16.3.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW041_1</pnode>
+        <sgid>140</sgid>
+        <devtype>
+            <gen>4.16.3</gen>
+            <mfg>335.21072.12336</mfg>
+            <cat>140</cat>
+        </devtype>
+        <ELK_ID>E06</ELK_ID>
+    </node>
+    <node flag="128">
+        <address>ZW042_1</address>
+        <name>AmberOfficeFan</name>
+        <family>4</family>
+        <parent type="3">305</parent>
+        <type>4.16.3.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW042_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.16.3</gen>
+            <mfg>335.21072.12336</mfg>
+            <cat>122</cat>
+        </devtype>
+        <ELK_ID>E02</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="78"/>
+    </node>
+    <node flag="128">
+        <address>ZW043_1</address>
+        <name>MstrBdRmWnFan</name>
+        <family>4</family>
+        <parent type="3">305</parent>
+        <type>4.16.3.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW043_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.16.3</gen>
+            <mfg>335.21072.12336</mfg>
+            <cat>122</cat>
+        </devtype>
+        <ELK_ID>E03</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="78"/>
+    </node>
+    <node flag="0">
+        <address>ZW043_140</address>
+        <name>ZW 043 Thermostat</name>
+        <family>4</family>
+        <type>4.16.3.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW043_1</pnode>
+        <sgid>140</sgid>
+        <devtype>
+            <gen>4.16.3</gen>
+            <mfg>335.21072.12336</mfg>
+            <cat>140</cat>
+        </devtype>
+        <ELK_ID>G08</ELK_ID>
+        <property id="CLISPH" value=" " formatted=" " uom="17"/>
+    </node>
+    <node flag="128">
+        <address>ZW044_1</address>
+        <name>PoolSpaPump</name>
+        <family>4</family>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW044_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.20292.12337</mfg>
+            <cat>121</cat>
+        </devtype>
+        <ELK_ID>E08</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="78"/>
+    </node>
+    <node flag="0">
+        <address>ZW044_140</address>
+        <name>ZW 044 Thermostat</name>
+        <family>4</family>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW044_1</pnode>
+        <sgid>140</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.20292.12337</mfg>
+            <cat>140</cat>
+        </devtype>
+        <ELK_ID>G03</ELK_ID>
+        <property id="CLIMD" value=" " formatted=" " uom="67"/>
+    </node>
+    <node flag="0">
+        <address>ZW044_143</address>
+        <name>PoolSpaPumpEnergy</name>
+        <family>4</family>
+        <type>4.16.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW044_1</pnode>
+        <sgid>143</sgid>
+        <devtype>
+            <gen>4.16.1</gen>
+            <mfg>99.20292.12337</mfg>
+            <cat>143</cat>
+        </devtype>
+        <ELK_ID>E09</ELK_ID>
+        <property id="ST" value="0" formatted="0.00 Watts" uom="73" prec="2"/>
+    </node>
+    <node flag="128">
+        <address>ZW045_1</address>
+        <name>KitchenIslandDim</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW045_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>109</cat>
+        </devtype>
+        <ELK_ID>H01</ELK_ID>
+        <property id="ST" value="25" formatted="25%" uom="51"/>
+    </node>
+    <node flag="0">
+        <address>ZW045_184</address>
+        <name>ZW 045 Barrier</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW045_1</pnode>
+        <sgid>184</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>184</cat>
+        </devtype>
+        <ELK_ID>H05</ELK_ID>
+        <property id="ST" value="25" formatted="25 %" uom="97"/>
+    </node>
+    <node flag="128">
+        <address>ZW046_1</address>
+        <name>BkYdDiningSpotsDim</name>
+        <family>4</family>
+        <type>4.17.1.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>ZW046_1</pnode>
+        <sgid>1</sgid>
+        <devtype>
+            <gen>4.17.1</gen>
+            <mfg>99.18756.12337</mfg>
+            <cat>109</cat>
+        </devtype>
+        <ELK_ID>H03</ELK_ID>
+        <property id="ST" value="0" formatted="Off" uom="51"/>
+    </node>
+    <node flag="128" nodeDefId="HonAlarm" nls="102H">
+        <address>n001_hwalrm1</address>
+        <name>Honeywell Alarm</name>
+        <family instance="1">10</family>
+        <parent type="3">51806</parent>
+        <type>1.1.0.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>n001_hwalrm1</pnode>
+        <ELK_ID>E15</ELK_ID>
+    </node>
+    <node flag="0" nodeDefId="HonAlarmPartition" nls="102HP">
+        <address>n001_hwalrm1_part1</address>
+        <name>Honeywell Alarm - Home</name>
+        <family instance="1">10</family>
+        <parent type="3">51806</parent>
+        <type>1.1.0.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>n001_hwalrm1</pnode>
+        <ELK_ID>E16</ELK_ID>
+    </node>
+    <node flag="0" nodeDefId="HonAlarmZone" nls="102Z">
+        <address>n001_hwalrm1_z01</address>
+        <name>Zone 01:Front Entry</name>
+        <family instance="1">10</family>
+        <parent type="3">51806</parent>
+        <type>1.1.0.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>n001_hwalrm1</pnode>
+        <ELK_ID>F01</ELK_ID>
+    </node>
+    <node flag="0" nodeDefId="HonAlarmZone" nls="102Z">
+        <address>n001_hwalrm1_z02</address>
+        <name>Zone 02:SlidingGlass</name>
+        <family instance="1">10</family>
+        <parent type="3">51806</parent>
+        <type>1.1.0.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>n001_hwalrm1</pnode>
+        <ELK_ID>F02</ELK_ID>
+    </node>
+    <node flag="0" nodeDefId="HonAlarmZone" nls="102Z">
+        <address>n001_hwalrm1_z03</address>
+        <name>Zone 03:LivingFamilyRm</name>
+        <family instance="1">10</family>
+        <parent type="3">51806</parent>
+        <type>1.1.0.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>n001_hwalrm1</pnode>
+        <ELK_ID>F03</ELK_ID>
+    </node>
+    <node flag="0" nodeDefId="HonAlarmZone" nls="102Z">
+        <address>n001_hwalrm1_z04</address>
+        <name>Zone 04:MstrBdRm</name>
+        <family instance="1">10</family>
+        <parent type="3">51806</parent>
+        <type>1.1.0.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>n001_hwalrm1</pnode>
+        <ELK_ID>F04</ELK_ID>
+    </node>
+    <node flag="0" nodeDefId="HonAlarmZone" nls="102Z">
+        <address>n001_hwalrm1_z05</address>
+        <name>Zone 05:Offices</name>
+        <family instance="1">10</family>
+        <parent type="3">51806</parent>
+        <type>1.1.0.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>n001_hwalrm1</pnode>
+        <ELK_ID>F05</ELK_ID>
+    </node>
+    <node flag="0" nodeDefId="HonAlarmZone" nls="102Z">
+        <address>n001_hwalrm1_z06</address>
+        <name>Zone 06:WestWing</name>
+        <family instance="1">10</family>
+        <parent type="3">51806</parent>
+        <type>1.1.0.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>n001_hwalrm1</pnode>
+        <ELK_ID>F06</ELK_ID>
+    </node>
+    <node flag="0" nodeDefId="HonAlarmZone" nls="102Z">
+        <address>n001_hwalrm1_z07</address>
+        <name>Zone 07:LvgGrtRmMotion</name>
+        <family instance="1">10</family>
+        <parent type="3">51806</parent>
+        <type>1.1.0.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>n001_hwalrm1</pnode>
+        <ELK_ID>F07</ELK_ID>
+    </node>
+    <node flag="0" nodeDefId="HonAlarmZone" nls="102Z">
+        <address>n001_hwalrm1_z08</address>
+        <name>Zone 08:XXMotion</name>
+        <family instance="1">10</family>
+        <parent type="3">51806</parent>
+        <type>1.1.0.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>n001_hwalrm1</pnode>
+        <ELK_ID>F08</ELK_ID>
+    </node>
+    <node flag="0" nodeDefId="HonAlarmZone" nls="102Z">
+        <address>n001_hwalrm1_z09</address>
+        <name>Zone 09:XXMotion</name>
+        <family instance="1">10</family>
+        <parent type="3">51806</parent>
+        <type>1.1.0.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>n001_hwalrm1</pnode>
+        <ELK_ID>F09</ELK_ID>
+    </node>
+    <node flag="0" nodeDefId="HonAlarmZone" nls="102Z">
+        <address>n001_hwalrm1_z10</address>
+        <name>Zone 10:BikeGarage</name>
+        <family instance="1">10</family>
+        <parent type="3">51806</parent>
+        <type>1.1.0.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>n001_hwalrm1</pnode>
+        <ELK_ID>F10</ELK_ID>
+    </node>
+    <node flag="0" nodeDefId="HonAlarmZone" nls="102Z">
+        <address>n001_hwalrm1_z11</address>
+        <name>Zone 11:MasterSmokeDetector</name>
+        <family instance="1">10</family>
+        <parent type="3">51806</parent>
+        <type>1.1.0.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>n001_hwalrm1</pnode>
+        <ELK_ID>F11</ELK_ID>
+    </node>
+    <node flag="0" nodeDefId="HonAlarmZone" nls="102Z">
+        <address>n001_hwalrm1_z12</address>
+        <name>Zone 12:WestWingSmoke</name>
+        <family instance="1">10</family>
+        <parent type="3">51806</parent>
+        <type>1.1.0.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>n001_hwalrm1</pnode>
+        <ELK_ID>F12</ELK_ID>
+    </node>
+    <node flag="0" nodeDefId="HonAlarmZone" nls="102Z">
+        <address>n001_hwalrm1_z13</address>
+        <name>Zone 13</name>
+        <family instance="1">10</family>
+        <parent type="3">51806</parent>
+        <type>1.1.0.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>n001_hwalrm1</pnode>
+        <ELK_ID>F13</ELK_ID>
+    </node>
+    <node flag="0" nodeDefId="HonAlarmZone" nls="102Z">
+        <address>n001_hwalrm1_z14</address>
+        <name>Zone 14</name>
+        <family instance="1">10</family>
+        <parent type="3">51806</parent>
+        <type>1.1.0.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>n001_hwalrm1</pnode>
+        <ELK_ID>F14</ELK_ID>
+    </node>
+    <node flag="0" nodeDefId="HonAlarmZone" nls="102Z">
+        <address>n001_hwalrm1_z15</address>
+        <name>Zone 15:WaterFlow</name>
+        <family instance="1">10</family>
+        <parent type="3">51806</parent>
+        <type>1.1.0.0</type>
+        <enabled>true</enabled>
+        <deviceClass>0</deviceClass>
+        <wattage>0</wattage>
+        <dcPeriod>0</dcPeriod>
+        <pnode>n001_hwalrm1</pnode>
+        <ELK_ID>F15</ELK_ID>
+    </node>
+    <group flag="12">
+        <address>00:21:b9:02:25:e9</address>
+        <name>ISY</name>
+        <family>6</family>
+        <members>
+            <link type="0">ZW002_1</link>
+            <link type="0">ZW003_1</link>
+            <link type="0">ZW004_1</link>
+            <link type="0">ZW005_1</link>
+            <link type="0">ZW006_1</link>
+            <link type="0">ZW007_1</link>
+            <link type="0">ZW008_1</link>
+            <link type="0">ZW009_1</link>
+            <link type="0">ZW010_1</link>
+            <link type="0">ZW011_1</link>
+            <link type="0">ZW012_1</link>
+            <link type="0">ZW021_1</link>
+            <link type="0">ZW035_1</link>
+            <link type="0">ZW022_1</link>
+            <link type="0">ZW014_1</link>
+            <link type="0">ZW015_1</link>
+            <link type="0">ZW016_1</link>
+            <link type="0">ZW003_140</link>
+            <link type="0">ZW018_1</link>
+            <link type="0">ZW019_1</link>
+            <link type="0">ZW020_1</link>
+            <link type="0">ZW023_1</link>
+            <link type="0">ZW024_1</link>
+            <link type="0">ZW025_1</link>
+            <link type="0">ZW025_157</link>
+            <link type="0">ZW036_1</link>
+            <link type="0">ZW026_1</link>
+            <link type="0">ZW027_1</link>
+            <link type="0">ZW028_1</link>
+            <link type="0">ZW029_1</link>
+            <link type="0">ZW030_1</link>
+            <link type="0">ZW031_1</link>
+            <link type="0">ZW032_1</link>
+            <link type="0">ZW033_1</link>
+            <link type="0">ZW034_1</link>
+            <link type="0">ZW037_1</link>
+            <link type="0">ZW038_1</link>
+            <link type="0">ZW038_104</link>
+            <link type="0">ZW004_118</link>
+            <link type="0">ZW039_1</link>
+            <link type="0">ZW005_147</link>
+            <link type="0">ZW009_118</link>
+            <link type="0">ZW009_140</link>
+            <link type="0">ZW003_118</link>
+            <link type="0">ZW002_119</link>
+            <link type="0">ZW010_140</link>
+            <link type="0">ZW028_140</link>
+            <link type="0">ZW004_140</link>
+            <link type="0">ZW008_140</link>
+            <link type="0">ZW039_147</link>
+            <link type="0">ZW027_118</link>
+            <link type="0">ZW010_184</link>
+            <link type="0">ZW012_119</link>
+            <link type="0">ZW040_1</link>
+            <link type="0">ZW034_140</link>
+            <link type="0">ZW015_118</link>
+            <link type="0">ZW015_140</link>
+            <link type="0">ZW003_119</link>
+            <link type="0">ZW041_1</link>
+            <link type="0">ZW042_1</link>
+            <link type="0">ZW043_1</link>
+            <link type="0">ZW040_140</link>
+            <link type="0">ZW008_144</link>
+            <link type="0">ZW041_140</link>
+            <link type="0">ZW012_118</link>
+            <link type="0">ZW044_1</link>
+            <link type="0">ZW044_143</link>
+            <link type="0">ZW040_147</link>
+            <link type="0">ZW029_104</link>
+            <link type="0">ZW006_147</link>
+            <link type="0">ZW021_119</link>
+            <link type="0">ZW036_147</link>
+            <link type="0">n001_hwalrm1</link>
+            <link type="0">n001_hwalrm1_part1</link>
+            <link type="0">n001_hwalrm1_z01</link>
+            <link type="0">n001_hwalrm1_z02</link>
+            <link type="0">n001_hwalrm1_z03</link>
+            <link type="0">n001_hwalrm1_z04</link>
+            <link type="0">n001_hwalrm1_z05</link>
+            <link type="0">n001_hwalrm1_z06</link>
+            <link type="0">n001_hwalrm1_z07</link>
+            <link type="0">n001_hwalrm1_z08</link>
+            <link type="0">n001_hwalrm1_z09</link>
+            <link type="0">n001_hwalrm1_z10</link>
+            <link type="0">n001_hwalrm1_z11</link>
+            <link type="0">n001_hwalrm1_z12</link>
+            <link type="0">n001_hwalrm1_z13</link>
+            <link type="0">n001_hwalrm1_z14</link>
+            <link type="0">n001_hwalrm1_z15</link>
+            <link type="0">ZW014_147</link>
+            <link type="0">ZW044_140</link>
+            <link type="0">ZW031_147</link>
+            <link type="0">ZW026_119</link>
+            <link type="0">ZW009_147</link>
+            <link type="0">ZW023_119</link>
+            <link type="0">ZW043_140</link>
+            <link type="0">ZW008_147</link>
+            <link type="0">ZW011_147</link>
+            <link type="0">ZW014_118</link>
+            <link type="0">ZW012_147</link>
+            <link type="0">ZW014_140</link>
+            <link type="0">ZW008_118</link>
+            <link type="0">ZW013_1</link>
+            <link type="0">ZW011_144</link>
+            <link type="0">ZW045_1</link>
+            <link type="0">ZW041_119</link>
+            <link type="0">ZW046_1</link>
+            <link type="0">ZW022_147</link>
+            <link type="0">ZW045_184</link>
+            <link type="0">ZW004_119</link>
+        </members>
+    </group>
+    <group flag="132">
+        <address>1502</address>
+        <name>Outdoor Night Lights</name>
+        <family>6</family>
+        <deviceGroup>17</deviceGroup>
+        <ELK_ID>A02</ELK_ID>
+        <members>
+            <link type="32">ZW002_1</link>
+            <link type="32">ZW003_1</link>
+            <link type="32">ZW004_1</link>
+            <link type="32">ZW021_1</link>
+            <link type="32">ZW024_1</link>
+            <link type="32">ZW026_1</link>
+        </members>
+    </group>
+    <group flag="132">
+        <address>17735</address>
+        <name>Backyard Dim</name>
+        <family>6</family>
+        <deviceGroup>18</deviceGroup>
+        <ELK_ID>A11</ELK_ID>
+        <members>
+            <link type="32">ZW008_1</link>
+            <link type="32">ZW009_1</link>
+            <link type="32">ZW010_1</link>
+            <link type="32">ZW016_1</link>
+            <link type="32">ZW018_1</link>
+            <link type="32">ZW019_1</link>
+            <link type="32">ZW040_1</link>
+            <link type="32">ZW046_1</link>
+        </members>
+    </group>
+    <group flag="132">
+        <address>30698</address>
+        <name>Indoor Night Lights</name>
+        <family>6</family>
+        <deviceGroup>20</deviceGroup>
+        <ELK_ID>C01</ELK_ID>
+        <members>
+            <link type="32">ZW005_1</link>
+            <link type="32">ZW022_1</link>
+            <link type="32">ZW036_1</link>
+            <link type="32">ZW027_1</link>
+            <link type="32">ZW028_1</link>
+            <link type="32">ZW029_1</link>
+            <link type="32">ZW030_1</link>
+            <link type="32">ZW032_1</link>
+            <link type="32">ZW039_1</link>
+            <link type="32">ZW045_1</link>
+        </members>
+    </group>
+    <group flag="132">
+        <address>63944</address>
+        <name>AllLights</name>
+        <family>6</family>
+        <deviceGroup>19</deviceGroup>
+        <ELK_ID>A15</ELK_ID>
+        <members>
+            <link type="32">ZW002_1</link>
+            <link type="32">ZW003_1</link>
+            <link type="32">ZW004_1</link>
+            <link type="32">ZW005_1</link>
+            <link type="32">ZW006_1</link>
+            <link type="32">ZW007_1</link>
+            <link type="32">ZW008_1</link>
+            <link type="32">ZW009_1</link>
+            <link type="32">ZW010_1</link>
+            <link type="32">ZW021_1</link>
+            <link type="32">ZW022_1</link>
+            <link type="32">ZW014_1</link>
+            <link type="32">ZW015_1</link>
+            <link type="32">ZW016_1</link>
+            <link type="32">ZW018_1</link>
+            <link type="32">ZW019_1</link>
+            <link type="32">ZW024_1</link>
+            <link type="32">ZW036_1</link>
+            <link type="32">ZW026_1</link>
+            <link type="32">ZW028_1</link>
+            <link type="32">ZW029_1</link>
+            <link type="32">ZW031_1</link>
+            <link type="32">ZW032_1</link>
+            <link type="32">ZW037_1</link>
+            <link type="32">ZW039_1</link>
+            <link type="32">ZW040_1</link>
+            <link type="32">ZW045_1</link>
+            <link type="32">ZW046_1</link>
+        </members>
+    </group>
+    <group flag="132">
+        <address>ADR0001</address>
+        <name>Auto DR</name>
+        <family>5</family>
+        <deviceGroup>16</deviceGroup>
+        <ELK_ID>A01</ELK_ID>
+        <members></members>
+    </group>
+</nodes>

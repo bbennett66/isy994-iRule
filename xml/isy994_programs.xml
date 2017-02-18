@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<programs>
+    <program id="0001" status="true" folder="true">
+        <name>My Programs</name>
+        <lastRunTime></lastRunTime>
+        <lastFinishTime></lastFinishTime>
+    </program>
+    <program id="0037" parentId="0001" status="true" folder="true">
+        <name>Alarm</name>
+        <lastRunTime></lastRunTime>
+        <lastFinishTime></lastFinishTime>
+    </program>
+    <program id="002E" parentId="0001" status="true" folder="true">
+        <name>Fans</name>
+        <lastRunTime></lastRunTime>
+        <lastFinishTime></lastFinishTime>
+    </program>
+    <program id="0032" parentId="0001" status="true" folder="true">
+        <name>Garage</name>
+        <lastRunTime></lastRunTime>
+        <lastFinishTime></lastFinishTime>
+    </program>
+    <program id="0034" parentId="0001" status="true" folder="true">
+        <name>Misc</name>
+        <lastRunTime></lastRunTime>
+        <lastFinishTime></lastFinishTime>
+    </program>
+    <program id="0033" parentId="0001" status="true" folder="true">
+        <name>Pantry</name>
+        <lastRunTime></lastRunTime>
+        <lastFinishTime></lastFinishTime>
+    </program>
+    <program id="0031" parentId="0001" status="true" folder="true">
+        <name>Pool</name>
+        <lastRunTime></lastRunTime>
+        <lastFinishTime></lastFinishTime>
+    </program>
+    <program id="0030" parentId="0001" status="true" folder="true">
+        <name>SunriseSunset</name>
+        <lastRunTime></lastRunTime>
+        <lastFinishTime></lastFinishTime>
+    </program>
+    <program id="002F" parentId="0001" status="true" folder="true">
+        <name>Therm</name>
+        <lastRunTime></lastRunTime>
+        <lastFinishTime></lastFinishTime>
+    </program>
+</programs>

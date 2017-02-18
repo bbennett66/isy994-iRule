@@ -1,0 +1,763 @@
+<Device id="0" name="ISY994" fixed="false" shared="false" type="Home Control" vendor="Universal Devices" model="isy994">
+<CodesType name="Global Cache Codes"/>
+<CodesType name="Hex Codes"/>
+<CodesType name="Network Codes">
+	<Code name="FrontEntry - On">
+		rest/nodes/ZW002_1/cmd/DON
+	</Code>
+	<Code name="FrontEntry - Off">
+		rest/nodes/ZW002_1/cmd/DOF
+	</Code>
+	<Code name="FrontOutdoor - On">
+		rest/nodes/ZW003_1/cmd/DON
+	</Code>
+	<Code name="FrontOutdoor - Off">
+		rest/nodes/ZW003_1/cmd/DOF
+	</Code>
+	<Code name="FrontPatio - On">
+		rest/nodes/ZW004_1/cmd/DON
+	</Code>
+	<Code name="FrontPatio - Off">
+		rest/nodes/ZW004_1/cmd/DOF
+	</Code>
+	<Code name="FrontChanDim - On">
+		rest/nodes/ZW005_1/cmd/DON
+	</Code>
+	<Code name="FrontChanDim - Off">
+		rest/nodes/ZW005_1/cmd/DOF
+	</Code>
+	<Code name="FrontChanDim - Bright">
+		rest/nodes/ZW005_1/cmd/BRT
+	</Code>
+	<Code name="FrontChanDim - Dim">
+		rest/nodes/ZW005_1/cmd/DIM
+	</Code>
+	<Code name="MstrBdRmDim - On">
+		rest/nodes/ZW006_1/cmd/DON
+	</Code>
+	<Code name="MstrBdRmDim - Off">
+		rest/nodes/ZW006_1/cmd/DOF
+	</Code>
+	<Code name="MstrBdRmDim - Bright">
+		rest/nodes/ZW006_1/cmd/BRT
+	</Code>
+	<Code name="MstrBdRmDim - Dim">
+		rest/nodes/ZW006_1/cmd/DIM
+	</Code>
+	<Code name="LivingRmDim - On">
+		rest/nodes/ZW007_1/cmd/DON
+	</Code>
+	<Code name="LivingRmDim - Off">
+		rest/nodes/ZW007_1/cmd/DOF
+	</Code>
+	<Code name="LivingRmDim - Bright">
+		rest/nodes/ZW007_1/cmd/BRT
+	</Code>
+	<Code name="LivingRmDim - Dim">
+		rest/nodes/ZW007_1/cmd/DIM
+	</Code>
+	<Code name="BkYdDnPatioDim - On">
+		rest/nodes/ZW008_1/cmd/DON
+	</Code>
+	<Code name="BkYdDnPatioDim - Off">
+		rest/nodes/ZW008_1/cmd/DOF
+	</Code>
+	<Code name="BkYdDnPatioDim - Bright">
+		rest/nodes/ZW008_1/cmd/BRT
+	</Code>
+	<Code name="BkYdDnPatioDim - Dim">
+		rest/nodes/ZW008_1/cmd/DIM
+	</Code>
+	<Code name="BkYardDim - On">
+		rest/nodes/ZW009_1/cmd/DON
+	</Code>
+	<Code name="BkYardDim - Off">
+		rest/nodes/ZW009_1/cmd/DOF
+	</Code>
+	<Code name="BkYardDim - Bright">
+		rest/nodes/ZW009_1/cmd/BRT
+	</Code>
+	<Code name="BkYardDim - Dim">
+		rest/nodes/ZW009_1/cmd/DIM
+	</Code>
+	<Code name="BkYdPupDim - On">
+		rest/nodes/ZW010_1/cmd/DON
+	</Code>
+	<Code name="BkYdPupDim - Off">
+		rest/nodes/ZW010_1/cmd/DOF
+	</Code>
+	<Code name="BkYdPupDim - Bright">
+		rest/nodes/ZW010_1/cmd/BRT
+	</Code>
+	<Code name="BkYdPupDim - Dim">
+		rest/nodes/ZW010_1/cmd/DIM
+	</Code>
+	<Code name="KitchenThermostat - On">
+		rest/nodes/ZW011_1/cmd/DON
+	</Code>
+	<Code name="KitchenThermostat - Off">
+		rest/nodes/ZW011_1/cmd/DOF
+	</Code>
+	<Code name="MstrBdRmThermostat - On">
+		rest/nodes/ZW012_1/cmd/DON
+	</Code>
+	<Code name="MstrBdRmThermostat - Off">
+		rest/nodes/ZW012_1/cmd/DOF
+	</Code>
+	<Code name="KitchenDim - On">
+		rest/nodes/ZW014_1/cmd/DON
+	</Code>
+	<Code name="KitchenDim - Off">
+		rest/nodes/ZW014_1/cmd/DOF
+	</Code>
+	<Code name="KitchenDim - Bright">
+		rest/nodes/ZW014_1/cmd/BRT
+	</Code>
+	<Code name="KitchenDim - Dim">
+		rest/nodes/ZW014_1/cmd/DIM
+	</Code>
+	<Code name="BkYdPatioFans - On">
+		rest/nodes/ZW015_1/cmd/DON
+	</Code>
+	<Code name="BkYdPatioFans - Off">
+		rest/nodes/ZW015_1/cmd/DOF
+	</Code>
+	<Code name="BkYdColumnDim - On">
+		rest/nodes/ZW016_1/cmd/DON
+	</Code>
+	<Code name="BkYdColumnDim - Off">
+		rest/nodes/ZW016_1/cmd/DOF
+	</Code>
+	<Code name="BkYdColumnDim - Bright">
+		rest/nodes/ZW016_1/cmd/BRT
+	</Code>
+	<Code name="BkYdColumnDim - Dim">
+		rest/nodes/ZW016_1/cmd/DIM
+	</Code>
+	<Code name="BkYdBarDim - On">
+		rest/nodes/ZW018_1/cmd/DON
+	</Code>
+	<Code name="BkYdBarDim - Off">
+		rest/nodes/ZW018_1/cmd/DOF
+	</Code>
+	<Code name="BkYdBarDim - Bright">
+		rest/nodes/ZW018_1/cmd/BRT
+	</Code>
+	<Code name="BkYdBarDim - Dim">
+		rest/nodes/ZW018_1/cmd/DIM
+	</Code>
+	<Code name="BkYdSittingDim - On">
+		rest/nodes/ZW019_1/cmd/DON
+	</Code>
+	<Code name="BkYdSittingDim - Off">
+		rest/nodes/ZW019_1/cmd/DOF
+	</Code>
+	<Code name="BkYdSittingDim - Bright">
+		rest/nodes/ZW019_1/cmd/BRT
+	</Code>
+	<Code name="BkYdSittingDim - Dim">
+		rest/nodes/ZW019_1/cmd/DIM
+	</Code>
+	<Code name="KitchenDoggyDoorPlug - On">
+		rest/nodes/ZW020_1/cmd/DON
+	</Code>
+	<Code name="KitchenDoggyDoorPlug - Off">
+		rest/nodes/ZW020_1/cmd/DOF
+	</Code>
+	<Code name="BkYdLandscapeLights - On">
+		rest/nodes/ZW021_1/cmd/DON
+	</Code>
+	<Code name="BkYdLandscapeLights - Off">
+		rest/nodes/ZW021_1/cmd/DOF
+	</Code>
+	<Code name="GreatRoomDim - On">
+		rest/nodes/ZW022_1/cmd/DON
+	</Code>
+	<Code name="GreatRoomDim - Off">
+		rest/nodes/ZW022_1/cmd/DOF
+	</Code>
+	<Code name="GreatRoomDim - Bright">
+		rest/nodes/ZW022_1/cmd/BRT
+	</Code>
+	<Code name="GreatRoomDim - Dim">
+		rest/nodes/ZW022_1/cmd/DIM
+	</Code>
+	<Code name="GarageSiren - On">
+		rest/nodes/ZW023_1/cmd/DON
+	</Code>
+	<Code name="GarageSiren - Off">
+		rest/nodes/ZW023_1/cmd/DOF
+	</Code>
+	<Code name="FrontYdLandscapeLights - On">
+		rest/nodes/ZW024_1/cmd/DON
+	</Code>
+	<Code name="FrontYdLandscapeLights - Off">
+		rest/nodes/ZW024_1/cmd/DOF
+	</Code>
+	<Code name="DoubleGarageOpen - On">
+		rest/nodes/ZW025_1/cmd/DON
+	</Code>
+	<Code name="DoubleGarageOpen - Off">
+		rest/nodes/ZW025_1/cmd/DOF
+	</Code>
+	<Code name="DoubleGarageOpenTamper - On">
+		rest/nodes/ZW025_157/cmd/DON
+	</Code>
+	<Code name="DoubleGarageOpenTamper - Off">
+		rest/nodes/ZW025_157/cmd/DOF
+	</Code>
+	<Code name="PoolLights - On">
+		rest/nodes/ZW026_1/cmd/DON
+	</Code>
+	<Code name="PoolLights - Off">
+		rest/nodes/ZW026_1/cmd/DOF
+	</Code>
+	<Code name="LivingRmAccentDim - On">
+		rest/nodes/ZW027_1/cmd/DON
+	</Code>
+	<Code name="LivingRmAccentDim - Off">
+		rest/nodes/ZW027_1/cmd/DOF
+	</Code>
+	<Code name="LivingRmAccentDim - Bright">
+		rest/nodes/ZW027_1/cmd/BRT
+	</Code>
+	<Code name="LivingRmAccentDim - Dim">
+		rest/nodes/ZW027_1/cmd/DIM
+	</Code>
+	<Code name="LvingRoomFireplaceAccentDim - On">
+		rest/nodes/ZW028_1/cmd/DON
+	</Code>
+	<Code name="LvingRoomFireplaceAccentDim - Off">
+		rest/nodes/ZW028_1/cmd/DOF
+	</Code>
+	<Code name="LvingRoomFireplaceAccentDim - Bright">
+		rest/nodes/ZW028_1/cmd/BRT
+	</Code>
+	<Code name="LvingRoomFireplaceAccentDim - Dim">
+		rest/nodes/ZW028_1/cmd/DIM
+	</Code>
+	<Code name="KitchenUnderCabinet - On">
+		rest/nodes/ZW029_1/cmd/DON
+	</Code>
+	<Code name="KitchenUnderCabinet - Off">
+		rest/nodes/ZW029_1/cmd/DOF
+	</Code>
+	<Code name="KitchenNookAccentDim - On">
+		rest/nodes/ZW030_1/cmd/DON
+	</Code>
+	<Code name="KitchenNookAccentDim - Off">
+		rest/nodes/ZW030_1/cmd/DOF
+	</Code>
+	<Code name="KitchenNookAccentDim - Bright">
+		rest/nodes/ZW030_1/cmd/BRT
+	</Code>
+	<Code name="KitchenNookAccentDim - Dim">
+		rest/nodes/ZW030_1/cmd/DIM
+	</Code>
+	<Code name="GarageEntryDim - On">
+		rest/nodes/ZW031_1/cmd/DON
+	</Code>
+	<Code name="GarageEntryDim - Off">
+		rest/nodes/ZW031_1/cmd/DOF
+	</Code>
+	<Code name="GarageEntryDim - Bright">
+		rest/nodes/ZW031_1/cmd/BRT
+	</Code>
+	<Code name="GarageEntryDim - Dim">
+		rest/nodes/ZW031_1/cmd/DIM
+	</Code>
+	<Code name="OfficeAccent - On">
+		rest/nodes/ZW032_1/cmd/DON
+	</Code>
+	<Code name="OfficeAccent - Off">
+		rest/nodes/ZW032_1/cmd/DOF
+	</Code>
+	<Code name="OfficeFan - On">
+		rest/nodes/ZW033_1/cmd/DON
+	</Code>
+	<Code name="OfficeFan - Off">
+		rest/nodes/ZW033_1/cmd/DOF
+	</Code>
+	<Code name="LibraryFan - On">
+		rest/nodes/ZW034_1/cmd/DON
+	</Code>
+	<Code name="LibraryFan - Off">
+		rest/nodes/ZW034_1/cmd/DOF
+	</Code>
+	<Code name="MstrBdRmFan - On">
+		rest/nodes/ZW035_1/cmd/DON
+	</Code>
+	<Code name="MstrBdRmFan - Off">
+		rest/nodes/ZW035_1/cmd/DOF
+	</Code>
+	<Code name="GreatRoomLampsDim - On">
+		rest/nodes/ZW036_1/cmd/DON
+	</Code>
+	<Code name="GreatRoomLampsDim - Off">
+		rest/nodes/ZW036_1/cmd/DOF
+	</Code>
+	<Code name="GreatRoomLampsDim - Bright">
+		rest/nodes/ZW036_1/cmd/BRT
+	</Code>
+	<Code name="GreatRoomLampsDim - Dim">
+		rest/nodes/ZW036_1/cmd/DIM
+	</Code>
+	<Code name="KitchenPantryLight - On">
+		rest/nodes/ZW037_1/cmd/DON
+	</Code>
+	<Code name="KitchenPantryLight - Off">
+		rest/nodes/ZW037_1/cmd/DOF
+	</Code>
+	<Code name="KitchenPantryDoorOpen - Notif - On">
+		rest/nodes/ZW038_1/cmd/DON
+	</Code>
+	<Code name="KitchenPantryDoorOpen - Notif - Off">
+		rest/nodes/ZW038_1/cmd/DOF
+	</Code>
+	<Code name="KitchenPantryDoorOpenSensor - On">
+		rest/nodes/ZW038_104/cmd/DON
+	</Code>
+	<Code name="KitchenPantryDoorOpenSensor - Off">
+		rest/nodes/ZW038_104/cmd/DOF
+	</Code>
+	<Code name="LivingRmLampsDim - On">
+		rest/nodes/ZW039_1/cmd/DON
+	</Code>
+	<Code name="LivingRmLampsDim - Off">
+		rest/nodes/ZW039_1/cmd/DOF
+	</Code>
+	<Code name="LivingRmLampsDim - Bright">
+		rest/nodes/ZW039_1/cmd/BRT
+	</Code>
+	<Code name="LivingRmLampsDim - Dim">
+		rest/nodes/ZW039_1/cmd/DIM
+	</Code>
+	<Code name="BkYdCookDim - On">
+		rest/nodes/ZW040_1/cmd/DON
+	</Code>
+	<Code name="BkYdCookDim - Off">
+		rest/nodes/ZW040_1/cmd/DOF
+	</Code>
+	<Code name="BkYdCookDim - Bright">
+		rest/nodes/ZW040_1/cmd/BRT
+	</Code>
+	<Code name="BkYdCookDim - Dim">
+		rest/nodes/ZW040_1/cmd/DIM
+	</Code>
+	<Code name="TheaterFan - On">
+		rest/nodes/ZW041_1/cmd/DON
+	</Code>
+	<Code name="TheaterFan - Off">
+		rest/nodes/ZW041_1/cmd/DOF
+	</Code>
+	<Code name="AmberOfficeFan - On">
+		rest/nodes/ZW042_1/cmd/DON
+	</Code>
+	<Code name="AmberOfficeFan - Off">
+		rest/nodes/ZW042_1/cmd/DOF
+	</Code>
+	<Code name="MstrBdRmWnFan - On">
+		rest/nodes/ZW043_1/cmd/DON
+	</Code>
+	<Code name="MstrBdRmWnFan - Off">
+		rest/nodes/ZW043_1/cmd/DOF
+	</Code>
+	<Code name="PoolSpaPump - On">
+		rest/nodes/ZW044_1/cmd/DON
+	</Code>
+	<Code name="PoolSpaPump - Off">
+		rest/nodes/ZW044_1/cmd/DOF
+	</Code>
+	<Code name="PoolSpaPumpEnergy - On">
+		rest/nodes/ZW044_143/cmd/DON
+	</Code>
+	<Code name="PoolSpaPumpEnergy - Off">
+		rest/nodes/ZW044_143/cmd/DOF
+	</Code>
+	<Code name="KitchenIslandDim - On">
+		rest/nodes/ZW045_1/cmd/DON
+	</Code>
+	<Code name="KitchenIslandDim - Off">
+		rest/nodes/ZW045_1/cmd/DOF
+	</Code>
+	<Code name="KitchenIslandDim - Bright">
+		rest/nodes/ZW045_1/cmd/BRT
+	</Code>
+	<Code name="KitchenIslandDim - Dim">
+		rest/nodes/ZW045_1/cmd/DIM
+	</Code>
+	<Code name="BkYdDiningSpotsDim - On">
+		rest/nodes/ZW046_1/cmd/DON
+	</Code>
+	<Code name="BkYdDiningSpotsDim - Off">
+		rest/nodes/ZW046_1/cmd/DOF
+	</Code>
+	<Code name="BkYdDiningSpotsDim - Bright">
+		rest/nodes/ZW046_1/cmd/BRT
+	</Code>
+	<Code name="BkYdDiningSpotsDim - Dim">
+		rest/nodes/ZW046_1/cmd/DIM
+	</Code>
+	<Code name="AlarmIsExternalClosed - RunIf">
+		rest/programs/0029/run
+	</Code>
+	<Code name="AlarmIsExternalClosed - RunThen">
+		rest/programs/0029/runThen
+	</Code>
+	<Code name="AlarmIsExternalClosed - runElse">
+		rest/programs/0029/runThen
+	</Code>
+	<Code name="FanTheaterOff - RunIf">
+		rest/programs/002D/run
+	</Code>
+	<Code name="FanTheaterOff - RunThen">
+		rest/programs/002D/runThen
+	</Code>
+	<Code name="FanTheaterOff - runElse">
+		rest/programs/002D/runThen
+	</Code>
+	<Code name="FanTheaterOn - RunIf">
+		rest/programs/002A/run
+	</Code>
+	<Code name="FanTheaterOn - RunThen">
+		rest/programs/002A/runThen
+	</Code>
+	<Code name="FanTheaterOn - runElse">
+		rest/programs/002A/runThen
+	</Code>
+	<Code name="FanFront - RunIf">
+		rest/programs/0022/run
+	</Code>
+	<Code name="FanFront - RunThen">
+		rest/programs/0022/runThen
+	</Code>
+	<Code name="FanFront - runElse">
+		rest/programs/0022/runThen
+	</Code>
+	<Code name="Dark Days - RunIf">
+		rest/programs/000E/run
+	</Code>
+	<Code name="Dark Days - RunThen">
+		rest/programs/000E/runThen
+	</Code>
+	<Code name="Dark Days - runElse">
+		rest/programs/000E/runThen
+	</Code>
+	<Code name="FanAmberOffice - RunIf">
+		rest/programs/002B/run
+	</Code>
+	<Code name="FanAmberOffice - RunThen">
+		rest/programs/002B/runThen
+	</Code>
+	<Code name="FanAmberOffice - runElse">
+		rest/programs/002B/runThen
+	</Code>
+	<Code name="FanMstrBdRm - RunIf">
+		rest/programs/0027/run
+	</Code>
+	<Code name="FanMstrBdRm - RunThen">
+		rest/programs/0027/runThen
+	</Code>
+	<Code name="FanMstrBdRm - runElse">
+		rest/programs/0027/runThen
+	</Code>
+	<Code name="FanMstrBdRmWd - RunIf">
+		rest/programs/002C/run
+	</Code>
+	<Code name="FanMstrBdRmWd - RunThen">
+		rest/programs/002C/runThen
+	</Code>
+	<Code name="FanMstrBdRmWd - runElse">
+		rest/programs/002C/runThen
+	</Code>
+	<Code name="TempBase - RunIf">
+		rest/programs/0023/run
+	</Code>
+	<Code name="TempBase - RunThen">
+		rest/programs/0023/runThen
+	</Code>
+	<Code name="TempBase - runElse">
+		rest/programs/0023/runThen
+	</Code>
+	<Code name="TempSummerArmed - RunIf">
+		rest/programs/003C/run
+	</Code>
+	<Code name="TempSummerArmed - RunThen">
+		rest/programs/003C/runThen
+	</Code>
+	<Code name="TempSummerArmed - runElse">
+		rest/programs/003C/runThen
+	</Code>
+	<Code name="TempSummerDisarmed - RunIf">
+		rest/programs/000C/run
+	</Code>
+	<Code name="TempSummerDisarmed - RunThen">
+		rest/programs/000C/runThen
+	</Code>
+	<Code name="TempSummerDisarmed - runElse">
+		rest/programs/000C/runThen
+	</Code>
+	<Code name="TempWinterAdv - RunIf">
+		rest/programs/000F/run
+	</Code>
+	<Code name="TempWinterAdv - RunThen">
+		rest/programs/000F/runThen
+	</Code>
+	<Code name="TempWinterAdv - runElse">
+		rest/programs/000F/runThen
+	</Code>
+	<Code name="TempWinterMorning - RunIf">
+		rest/programs/000A/run
+	</Code>
+	<Code name="TempWinterMorning - RunThen">
+		rest/programs/000A/runThen
+	</Code>
+	<Code name="TempWinterMorning - runElse">
+		rest/programs/000A/runThen
+	</Code>
+	<Code name="NightTimeOff - RunIf">
+		rest/programs/0004/run
+	</Code>
+	<Code name="NightTimeOff - RunThen">
+		rest/programs/0004/runThen
+	</Code>
+	<Code name="NightTimeOff - runElse">
+		rest/programs/0004/runThen
+	</Code>
+	<Code name="Sunrise - RunIf">
+		rest/programs/0006/run
+	</Code>
+	<Code name="Sunrise - RunThen">
+		rest/programs/0006/runThen
+	</Code>
+	<Code name="Sunrise - runElse">
+		rest/programs/0006/runThen
+	</Code>
+	<Code name="TempWinterMorningOff - RunIf">
+		rest/programs/0013/run
+	</Code>
+	<Code name="TempWinterMorningOff - RunThen">
+		rest/programs/0013/runThen
+	</Code>
+	<Code name="TempWinterMorningOff - runElse">
+		rest/programs/0013/runThen
+	</Code>
+	<Code name="GarageOpenTurnLightsOn - RunIf">
+		rest/programs/0020/run
+	</Code>
+	<Code name="GarageOpenTurnLightsOn - RunThen">
+		rest/programs/0020/runThen
+	</Code>
+	<Code name="GarageOpenTurnLightsOn - runElse">
+		rest/programs/0020/runThen
+	</Code>
+	<Code name="FrontMorning - RunIf">
+		rest/programs/0005/run
+	</Code>
+	<Code name="FrontMorning - RunThen">
+		rest/programs/0005/runThen
+	</Code>
+	<Code name="FrontMorning - runElse">
+		rest/programs/0005/runThen
+	</Code>
+	<Code name="AllLightsOff - RunIf">
+		rest/programs/000D/run
+	</Code>
+	<Code name="AllLightsOff - RunThen">
+		rest/programs/000D/runThen
+	</Code>
+	<Code name="AllLightsOff - runElse">
+		rest/programs/000D/runThen
+	</Code>
+	<Code name="Query All - RunIf">
+		rest/programs/0002/run
+	</Code>
+	<Code name="Query All - RunThen">
+		rest/programs/0002/runThen
+	</Code>
+	<Code name="Query All - runElse">
+		rest/programs/0002/runThen
+	</Code>
+	<Code name="LowTempWarning - RunIf">
+		rest/programs/0009/run
+	</Code>
+	<Code name="LowTempWarning - RunThen">
+		rest/programs/0009/runThen
+	</Code>
+	<Code name="LowTempWarning - runElse">
+		rest/programs/0009/runThen
+	</Code>
+	<Code name="Sunset - RunIf">
+		rest/programs/0003/run
+	</Code>
+	<Code name="Sunset - RunThen">
+		rest/programs/0003/runThen
+	</Code>
+	<Code name="Sunset - runElse">
+		rest/programs/0003/runThen
+	</Code>
+	<Code name="GarageEntryDimOff - RunIf">
+		rest/programs/0021/run
+	</Code>
+	<Code name="GarageEntryDimOff - RunThen">
+		rest/programs/0021/runThen
+	</Code>
+	<Code name="GarageEntryDimOff - runElse">
+		rest/programs/0021/runThen
+	</Code>
+	<Code name="GarageOpen - RunIf">
+		rest/programs/0014/run
+	</Code>
+	<Code name="GarageOpen - RunThen">
+		rest/programs/0014/runThen
+	</Code>
+	<Code name="GarageOpen - runElse">
+		rest/programs/0014/runThen
+	</Code>
+	<Code name="ArmedAway - RunIf">
+		rest/programs/0038/run
+	</Code>
+	<Code name="ArmedAway - RunThen">
+		rest/programs/0038/runThen
+	</Code>
+	<Code name="ArmedAway - runElse">
+		rest/programs/0038/runThen
+	</Code>
+	<Code name="ArmedNightStay - RunIf">
+		rest/programs/003B/run
+	</Code>
+	<Code name="ArmedNightStay - RunThen">
+		rest/programs/003B/runThen
+	</Code>
+	<Code name="ArmedNightStay - runElse">
+		rest/programs/003B/runThen
+	</Code>
+	<Code name="ArmedStay - RunIf">
+		rest/programs/0039/run
+	</Code>
+	<Code name="ArmedStay - RunThen">
+		rest/programs/0039/runThen
+	</Code>
+	<Code name="ArmedStay - runElse">
+		rest/programs/0039/runThen
+	</Code>
+	<Code name="Disarmed - RunIf">
+		rest/programs/003A/run
+	</Code>
+	<Code name="Disarmed - RunThen">
+		rest/programs/003A/runThen
+	</Code>
+	<Code name="Disarmed - runElse">
+		rest/programs/003A/runThen
+	</Code>
+	<Code name="FrontLightsOn30Min - RunIf">
+		rest/programs/0016/run
+	</Code>
+	<Code name="FrontLightsOn30Min - RunThen">
+		rest/programs/0016/runThen
+	</Code>
+	<Code name="FrontLightsOn30Min - runElse">
+		rest/programs/0016/runThen
+	</Code>
+	<Code name="SetEntertainingOff - RunIf">
+		rest/programs/0036/run
+	</Code>
+	<Code name="SetEntertainingOff - RunThen">
+		rest/programs/0036/runThen
+	</Code>
+	<Code name="SetEntertainingOff - runElse">
+		rest/programs/0036/runThen
+	</Code>
+	<Code name="SetEntertaiiningOn - RunIf">
+		rest/programs/0035/run
+	</Code>
+	<Code name="SetEntertaiiningOn - RunThen">
+		rest/programs/0035/runThen
+	</Code>
+	<Code name="SetEntertaiiningOn - runElse">
+		rest/programs/0035/runThen
+	</Code>
+	<Code name="PoolLightsSave - RunIf">
+		rest/programs/0007/run
+	</Code>
+	<Code name="PoolLightsSave - RunThen">
+		rest/programs/0007/runThen
+	</Code>
+	<Code name="PoolLightsSave - runElse">
+		rest/programs/0007/runThen
+	</Code>
+	<Code name="PoolLightsCarribeanMode - RunIf">
+		rest/programs/000B/run
+	</Code>
+	<Code name="PoolLightsCarribeanMode - RunThen">
+		rest/programs/000B/runThen
+	</Code>
+	<Code name="PoolLightsCarribeanMode - runElse">
+		rest/programs/000B/runThen
+	</Code>
+	<Code name="PoolLightsRecall - RunIf">
+		rest/programs/0008/run
+	</Code>
+	<Code name="PoolLightsRecall - RunThen">
+		rest/programs/0008/runThen
+	</Code>
+	<Code name="PoolLightsRecall - runElse">
+		rest/programs/0008/runThen
+	</Code>
+	<Code name="PoolLightsBlue - RunIf">
+		rest/programs/001C/run
+	</Code>
+	<Code name="PoolLightsBlue - RunThen">
+		rest/programs/001C/runThen
+	</Code>
+	<Code name="PoolLightsBlue - runElse">
+		rest/programs/001C/runThen
+	</Code>
+	<Code name="PoolLightsMagenta - RunIf">
+		rest/programs/0015/run
+	</Code>
+	<Code name="PoolLightsMagenta - RunThen">
+		rest/programs/0015/runThen
+	</Code>
+	<Code name="PoolLightsMagenta - runElse">
+		rest/programs/0015/runThen
+	</Code>
+	<Code name="PoolLightsRed - RunIf">
+		rest/programs/001E/run
+	</Code>
+	<Code name="PoolLightsRed - RunThen">
+		rest/programs/001E/runThen
+	</Code>
+	<Code name="PoolLightsRed - runElse">
+		rest/programs/001E/runThen
+	</Code>
+	<Code name="PoolLightsSAmMode - RunIf">
+		rest/programs/0017/run
+	</Code>
+	<Code name="PoolLightsSAmMode - RunThen">
+		rest/programs/0017/runThen
+	</Code>
+	<Code name="PoolLightsSAmMode - runElse">
+		rest/programs/0017/runThen
+	</Code>
+	<Code name="PoolLightsRoyalMode - RunIf">
+		rest/programs/0012/run
+	</Code>
+	<Code name="PoolLightsRoyalMode - RunThen">
+		rest/programs/0012/runThen
+	</Code>
+	<Code name="PoolLightsRoyalMode - runElse">
+		rest/programs/0012/runThen
+	</Code>
+	<Code name="PoolLightsRomanceMode - RunIf">
+		rest/programs/0019/run
+	</Code>
+	<Code name="PoolLightsRomanceMode - RunThen">
+		rest/programs/0019/runThen
+	</Code>
+	<Code name="PoolLightsRomanceMode - runElse">
+		rest/programs/0019/runThen
+	</Code>
+</CodesType>
+<CodesType name="Database Codes"/>
+</Device>

@@ -1,0 +1,19 @@
+<Device id="0" name="ISY994" fixed="false" shared="false" type="Home Control" vendor="Universal Devices" model="isy994">
+<CodesType name="Global Cache Codes"/>
+<CodesType name="Hex Codes"/>
+<CodesType name="Network Codes">
+	<Code name="LivingRoomLamp - On">
+		rest/nodes/ZW039_1/cmd/DON
+	</Code>
+	<Code name="LivingRoomLamp - Off">
+		rest/nodes/ZW039_1/cmd/DON
+	</Code>
+	<Code name="LivingRoomLamp - Brighten">
+		rest/nodes/ZW039_1/cmd/BRT
+	</Code>	
+	<Code name="LivingRoomLamp - Dim">
+		rest/nodes/ZW039_1/cmd/DIM
+	</Code>
+</CodesType>
+<CodesType name="Database Codes"/>
+</Device>
