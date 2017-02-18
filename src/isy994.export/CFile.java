@@ -1,5 +1,4 @@
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 
 /**
  * Created by Berlin on 2/18/2017.
@@ -16,5 +15,17 @@ public class CFile {
         catch (IOException e){
             e.printStackTrace();
         }
+    }
+    static String GetAuthToken ( String sFileName ) {
+        String sReturnToken = null;
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(sFileName));
+            sReturnToken = br.readLine();
+            br.close();
+        }
+        catch (IOException e) {
+            sReturnToken = "INVALID";
+        }
+        return sReturnToken;
     }
 }
