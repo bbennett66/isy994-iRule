@@ -11,9 +11,10 @@ public class IsyNodes {
 	public static void main(String[] args) {
 		  String sIRuleNodeXML;
 		  CISYData cISYData = new CISYData();
-		  String sAuth = "";
 
 		  try {
+
+		  		String sAuth = CFile.GetAuthToken( "./auth/isyAuthToken");
 
 		  	  	//node data
 			  	String sNodeXML = cISYData.getISYNodes( sAuth, "http://192.168.0.4/rest/nodes" );

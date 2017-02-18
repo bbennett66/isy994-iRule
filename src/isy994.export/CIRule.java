@@ -132,7 +132,7 @@ public class CIRule {
                         sCommand += "\t\trest/programs/" + sProgramId + "/runThen\n";
                         sCommand += "\t</Code>\n";
 
-                        sCommand += "\t<Code name=\"" + sName + " - runElse\">\n";
+                        sCommand += "\t<Code name=\"" + sName + " - RunElse\">\n";
                         sCommand += "\t\trest/programs/" + sProgramId + "/runThen\n";
                         sCommand += "\t</Code>\n";
 

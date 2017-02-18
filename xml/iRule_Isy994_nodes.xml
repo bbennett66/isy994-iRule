@@ -404,35 +404,8 @@
 	<Code name="AlarmIsExternalClosed - RunThen">
 		rest/programs/0029/runThen
 	</Code>
-	<Code name="AlarmIsExternalClosed - runElse">
+	<Code name="AlarmIsExternalClosed - RunElse">
 		rest/programs/0029/runThen
-	</Code>
-	<Code name="FanTheaterOff - RunIf">
-		rest/programs/002D/run
-	</Code>
-	<Code name="FanTheaterOff - RunThen">
-		rest/programs/002D/runThen
-	</Code>
-	<Code name="FanTheaterOff - runElse">
-		rest/programs/002D/runThen
-	</Code>
-	<Code name="FanTheaterOn - RunIf">
-		rest/programs/002A/run
-	</Code>
-	<Code name="FanTheaterOn - RunThen">
-		rest/programs/002A/runThen
-	</Code>
-	<Code name="FanTheaterOn - runElse">
-		rest/programs/002A/runThen
-	</Code>
-	<Code name="FanFront - RunIf">
-		rest/programs/0022/run
-	</Code>
-	<Code name="FanFront - RunThen">
-		rest/programs/0022/runThen
-	</Code>
-	<Code name="FanFront - runElse">
-		rest/programs/0022/runThen
 	</Code>
 	<Code name="Dark Days - RunIf">
 		rest/programs/000E/run
@@ -440,7 +413,7 @@
 	<Code name="Dark Days - RunThen">
 		rest/programs/000E/runThen
 	</Code>
-	<Code name="Dark Days - runElse">
+	<Code name="Dark Days - RunElse">
 		rest/programs/000E/runThen
 	</Code>
 	<Code name="FanAmberOffice - RunIf">
@@ -449,7 +422,7 @@
 	<Code name="FanAmberOffice - RunThen">
 		rest/programs/002B/runThen
 	</Code>
-	<Code name="FanAmberOffice - runElse">
+	<Code name="FanAmberOffice - RunElse">
 		rest/programs/002B/runThen
 	</Code>
 	<Code name="FanMstrBdRm - RunIf">
@@ -458,7 +431,7 @@
 	<Code name="FanMstrBdRm - RunThen">
 		rest/programs/0027/runThen
 	</Code>
-	<Code name="FanMstrBdRm - runElse">
+	<Code name="FanMstrBdRm - RunElse">
 		rest/programs/0027/runThen
 	</Code>
 	<Code name="FanMstrBdRmWd - RunIf">
@@ -467,8 +440,26 @@
 	<Code name="FanMstrBdRmWd - RunThen">
 		rest/programs/002C/runThen
 	</Code>
-	<Code name="FanMstrBdRmWd - runElse">
+	<Code name="FanMstrBdRmWd - RunElse">
 		rest/programs/002C/runThen
+	</Code>
+	<Code name="FanTheaterOff - RunIf">
+		rest/programs/002D/run
+	</Code>
+	<Code name="FanTheaterOff - RunThen">
+		rest/programs/002D/runThen
+	</Code>
+	<Code name="FanTheaterOff - RunElse">
+		rest/programs/002D/runThen
+	</Code>
+	<Code name="FanTheaterOn - RunIf">
+		rest/programs/002A/run
+	</Code>
+	<Code name="FanTheaterOn - RunThen">
+		rest/programs/002A/runThen
+	</Code>
+	<Code name="FanTheaterOn - RunElse">
+		rest/programs/002A/runThen
 	</Code>
 	<Code name="TempBase - RunIf">
 		rest/programs/0023/run
@@ -476,7 +467,7 @@
 	<Code name="TempBase - RunThen">
 		rest/programs/0023/runThen
 	</Code>
-	<Code name="TempBase - runElse">
+	<Code name="TempBase - RunElse">
 		rest/programs/0023/runThen
 	</Code>
 	<Code name="TempSummerArmed - RunIf">
@@ -485,7 +476,7 @@
 	<Code name="TempSummerArmed - RunThen">
 		rest/programs/003C/runThen
 	</Code>
-	<Code name="TempSummerArmed - runElse">
+	<Code name="TempSummerArmed - RunElse">
 		rest/programs/003C/runThen
 	</Code>
 	<Code name="TempSummerDisarmed - RunIf">
@@ -494,7 +485,7 @@
 	<Code name="TempSummerDisarmed - RunThen">
 		rest/programs/000C/runThen
 	</Code>
-	<Code name="TempSummerDisarmed - runElse">
+	<Code name="TempSummerDisarmed - RunElse">
 		rest/programs/000C/runThen
 	</Code>
 	<Code name="TempWinterAdv - RunIf">
@@ -503,7 +494,7 @@
 	<Code name="TempWinterAdv - RunThen">
 		rest/programs/000F/runThen
 	</Code>
-	<Code name="TempWinterAdv - runElse">
+	<Code name="TempWinterAdv - RunElse">
 		rest/programs/000F/runThen
 	</Code>
 	<Code name="TempWinterMorning - RunIf">
@@ -512,8 +503,17 @@
 	<Code name="TempWinterMorning - RunThen">
 		rest/programs/000A/runThen
 	</Code>
-	<Code name="TempWinterMorning - runElse">
+	<Code name="TempWinterMorning - RunElse">
 		rest/programs/000A/runThen
+	</Code>
+	<Code name="FanFront - RunIf">
+		rest/programs/0022/run
+	</Code>
+	<Code name="FanFront - RunThen">
+		rest/programs/0022/runThen
+	</Code>
+	<Code name="FanFront - RunElse">
+		rest/programs/0022/runThen
 	</Code>
 	<Code name="NightTimeOff - RunIf">
 		rest/programs/0004/run
@@ -521,7 +521,7 @@
 	<Code name="NightTimeOff - RunThen">
 		rest/programs/0004/runThen
 	</Code>
-	<Code name="NightTimeOff - runElse">
+	<Code name="NightTimeOff - RunElse">
 		rest/programs/0004/runThen
 	</Code>
 	<Code name="Sunrise - RunIf">
@@ -530,7 +530,7 @@
 	<Code name="Sunrise - RunThen">
 		rest/programs/0006/runThen
 	</Code>
-	<Code name="Sunrise - runElse">
+	<Code name="Sunrise - RunElse">
 		rest/programs/0006/runThen
 	</Code>
 	<Code name="TempWinterMorningOff - RunIf">
@@ -539,7 +539,7 @@
 	<Code name="TempWinterMorningOff - RunThen">
 		rest/programs/0013/runThen
 	</Code>
-	<Code name="TempWinterMorningOff - runElse">
+	<Code name="TempWinterMorningOff - RunElse">
 		rest/programs/0013/runThen
 	</Code>
 	<Code name="GarageOpenTurnLightsOn - RunIf">
@@ -548,7 +548,7 @@
 	<Code name="GarageOpenTurnLightsOn - RunThen">
 		rest/programs/0020/runThen
 	</Code>
-	<Code name="GarageOpenTurnLightsOn - runElse">
+	<Code name="GarageOpenTurnLightsOn - RunElse">
 		rest/programs/0020/runThen
 	</Code>
 	<Code name="FrontMorning - RunIf">
@@ -557,7 +557,7 @@
 	<Code name="FrontMorning - RunThen">
 		rest/programs/0005/runThen
 	</Code>
-	<Code name="FrontMorning - runElse">
+	<Code name="FrontMorning - RunElse">
 		rest/programs/0005/runThen
 	</Code>
 	<Code name="AllLightsOff - RunIf">
@@ -566,7 +566,7 @@
 	<Code name="AllLightsOff - RunThen">
 		rest/programs/000D/runThen
 	</Code>
-	<Code name="AllLightsOff - runElse">
+	<Code name="AllLightsOff - RunElse">
 		rest/programs/000D/runThen
 	</Code>
 	<Code name="Query All - RunIf">
@@ -575,7 +575,7 @@
 	<Code name="Query All - RunThen">
 		rest/programs/0002/runThen
 	</Code>
-	<Code name="Query All - runElse">
+	<Code name="Query All - RunElse">
 		rest/programs/0002/runThen
 	</Code>
 	<Code name="LowTempWarning - RunIf">
@@ -584,7 +584,7 @@
 	<Code name="LowTempWarning - RunThen">
 		rest/programs/0009/runThen
 	</Code>
-	<Code name="LowTempWarning - runElse">
+	<Code name="LowTempWarning - RunElse">
 		rest/programs/0009/runThen
 	</Code>
 	<Code name="Sunset - RunIf">
@@ -593,7 +593,7 @@
 	<Code name="Sunset - RunThen">
 		rest/programs/0003/runThen
 	</Code>
-	<Code name="Sunset - runElse">
+	<Code name="Sunset - RunElse">
 		rest/programs/0003/runThen
 	</Code>
 	<Code name="GarageEntryDimOff - RunIf">
@@ -602,7 +602,7 @@
 	<Code name="GarageEntryDimOff - RunThen">
 		rest/programs/0021/runThen
 	</Code>
-	<Code name="GarageEntryDimOff - runElse">
+	<Code name="GarageEntryDimOff - RunElse">
 		rest/programs/0021/runThen
 	</Code>
 	<Code name="GarageOpen - RunIf">
@@ -611,7 +611,7 @@
 	<Code name="GarageOpen - RunThen">
 		rest/programs/0014/runThen
 	</Code>
-	<Code name="GarageOpen - runElse">
+	<Code name="GarageOpen - RunElse">
 		rest/programs/0014/runThen
 	</Code>
 	<Code name="ArmedAway - RunIf">
@@ -620,7 +620,7 @@
 	<Code name="ArmedAway - RunThen">
 		rest/programs/0038/runThen
 	</Code>
-	<Code name="ArmedAway - runElse">
+	<Code name="ArmedAway - RunElse">
 		rest/programs/0038/runThen
 	</Code>
 	<Code name="ArmedNightStay - RunIf">
@@ -629,7 +629,7 @@
 	<Code name="ArmedNightStay - RunThen">
 		rest/programs/003B/runThen
 	</Code>
-	<Code name="ArmedNightStay - runElse">
+	<Code name="ArmedNightStay - RunElse">
 		rest/programs/003B/runThen
 	</Code>
 	<Code name="ArmedStay - RunIf">
@@ -638,7 +638,7 @@
 	<Code name="ArmedStay - RunThen">
 		rest/programs/0039/runThen
 	</Code>
-	<Code name="ArmedStay - runElse">
+	<Code name="ArmedStay - RunElse">
 		rest/programs/0039/runThen
 	</Code>
 	<Code name="Disarmed - RunIf">
@@ -647,7 +647,7 @@
 	<Code name="Disarmed - RunThen">
 		rest/programs/003A/runThen
 	</Code>
-	<Code name="Disarmed - runElse">
+	<Code name="Disarmed - RunElse">
 		rest/programs/003A/runThen
 	</Code>
 	<Code name="FrontLightsOn30Min - RunIf">
@@ -656,7 +656,7 @@
 	<Code name="FrontLightsOn30Min - RunThen">
 		rest/programs/0016/runThen
 	</Code>
-	<Code name="FrontLightsOn30Min - runElse">
+	<Code name="FrontLightsOn30Min - RunElse">
 		rest/programs/0016/runThen
 	</Code>
 	<Code name="SetEntertainingOff - RunIf">
@@ -665,7 +665,7 @@
 	<Code name="SetEntertainingOff - RunThen">
 		rest/programs/0036/runThen
 	</Code>
-	<Code name="SetEntertainingOff - runElse">
+	<Code name="SetEntertainingOff - RunElse">
 		rest/programs/0036/runThen
 	</Code>
 	<Code name="SetEntertaiiningOn - RunIf">
@@ -674,7 +674,7 @@
 	<Code name="SetEntertaiiningOn - RunThen">
 		rest/programs/0035/runThen
 	</Code>
-	<Code name="SetEntertaiiningOn - runElse">
+	<Code name="SetEntertaiiningOn - RunElse">
 		rest/programs/0035/runThen
 	</Code>
 	<Code name="PoolLightsSave - RunIf">
@@ -683,7 +683,7 @@
 	<Code name="PoolLightsSave - RunThen">
 		rest/programs/0007/runThen
 	</Code>
-	<Code name="PoolLightsSave - runElse">
+	<Code name="PoolLightsSave - RunElse">
 		rest/programs/0007/runThen
 	</Code>
 	<Code name="PoolLightsCarribeanMode - RunIf">
@@ -692,7 +692,7 @@
 	<Code name="PoolLightsCarribeanMode - RunThen">
 		rest/programs/000B/runThen
 	</Code>
-	<Code name="PoolLightsCarribeanMode - runElse">
+	<Code name="PoolLightsCarribeanMode - RunElse">
 		rest/programs/000B/runThen
 	</Code>
 	<Code name="PoolLightsRecall - RunIf">
@@ -701,7 +701,7 @@
 	<Code name="PoolLightsRecall - RunThen">
 		rest/programs/0008/runThen
 	</Code>
-	<Code name="PoolLightsRecall - runElse">
+	<Code name="PoolLightsRecall - RunElse">
 		rest/programs/0008/runThen
 	</Code>
 	<Code name="PoolLightsBlue - RunIf">
@@ -710,7 +710,7 @@
 	<Code name="PoolLightsBlue - RunThen">
 		rest/programs/001C/runThen
 	</Code>
-	<Code name="PoolLightsBlue - runElse">
+	<Code name="PoolLightsBlue - RunElse">
 		rest/programs/001C/runThen
 	</Code>
 	<Code name="PoolLightsMagenta - RunIf">
@@ -719,7 +719,7 @@
 	<Code name="PoolLightsMagenta - RunThen">
 		rest/programs/0015/runThen
 	</Code>
-	<Code name="PoolLightsMagenta - runElse">
+	<Code name="PoolLightsMagenta - RunElse">
 		rest/programs/0015/runThen
 	</Code>
 	<Code name="PoolLightsRed - RunIf">
@@ -728,7 +728,7 @@
 	<Code name="PoolLightsRed - RunThen">
 		rest/programs/001E/runThen
 	</Code>
-	<Code name="PoolLightsRed - runElse">
+	<Code name="PoolLightsRed - RunElse">
 		rest/programs/001E/runThen
 	</Code>
 	<Code name="PoolLightsSAmMode - RunIf">
@@ -737,7 +737,7 @@
 	<Code name="PoolLightsSAmMode - RunThen">
 		rest/programs/0017/runThen
 	</Code>
-	<Code name="PoolLightsSAmMode - runElse">
+	<Code name="PoolLightsSAmMode - RunElse">
 		rest/programs/0017/runThen
 	</Code>
 	<Code name="PoolLightsRoyalMode - RunIf">
@@ -746,7 +746,7 @@
 	<Code name="PoolLightsRoyalMode - RunThen">
 		rest/programs/0012/runThen
 	</Code>
-	<Code name="PoolLightsRoyalMode - runElse">
+	<Code name="PoolLightsRoyalMode - RunElse">
 		rest/programs/0012/runThen
 	</Code>
 	<Code name="PoolLightsRomanceMode - RunIf">
@@ -755,7 +755,7 @@
 	<Code name="PoolLightsRomanceMode - RunThen">
 		rest/programs/0019/runThen
 	</Code>
-	<Code name="PoolLightsRomanceMode - runElse">
+	<Code name="PoolLightsRomanceMode - RunElse">
 		rest/programs/0019/runThen
 	</Code>
 </CodesType>
