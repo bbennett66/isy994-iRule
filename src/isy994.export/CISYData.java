@@ -9,7 +9,7 @@ import java.net.URL;
  * Created by bbennett on 2/14/17.
  */
 public class CISYData {
-    public String getISYNodes ( String sAuth, String sURL){
+    public String getISYData ( String sAuth, String sURL){
 
         String sISYXML = "";
 
