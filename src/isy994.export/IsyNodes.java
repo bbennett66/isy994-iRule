@@ -17,12 +17,12 @@ public class IsyNodes {
 		  		String sAuth = CFile.GetAuthToken( "./auth/isyAuthToken");
 
 		  	  	//node data
-			  	String sNodeXML = cISYData.getISYNodes( sAuth, "http://192.168.0.4/rest/nodes" );
+			  	String sNodeXML = cISYData.getISYData( sAuth, "http://192.168.0.4/rest/nodes" );
 			  	//CFile.WriteXML("isy994_nodes.xml", sNodeXML);
 
 
    			  	//program data
-			  	String sProgramXML = cISYData.getISYNodes( sAuth, "http://192.168.0.4/rest/programs?subfolders=true" );
+			  	String sProgramXML = cISYData.getISYData( sAuth, "http://192.168.0.4/rest/programs?subfolders=true" );
 			 	//CFile.WriteXML("isy994_programs.xml", sProgramXML );
 
 			 	//Build iRuleXML
