@@ -1,11 +1,271 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Device id="0" name="device name" fixed="false" shared="false" type="device type" vendor="vendor name" model="model name">
-  <CodesType name="Global Cache Codes"></CodesType>
-  <CodesType name="Hex Codes">
-      <Code name="example command 1">0000 005e 001d 0000 00db 0049 0025 0024 0025 0049 0049 0024 0025 0024 0025 0024 0025 0024 00b6 0024 0025 0024 006e 0024 006e 0024 0025 0024 00b6 0049 0049 0024 0025 0024 006e 0048 0049 0024 0049 0024 0049 0024 0025 0024 0025 0024 00b6 0049 0049 0024 0025 0024 006e 0048 0049 0024 0025 0024 0025 0049 0092 0049</Code>
-    <Code name="example command 2">0000 005e 001d 0000 00db 0049 0025 0024 0025 0049 0049 0024 0025 0024 0025 0024 0025 0024 00b6 0025 0025 0024 006e 0024 006e 0024 0025 0024 00b6 0049 0049 0024 0049 0024 0049 0049 0049 0024 0049 0024 0049 0024 0025 0024 0025 0024 00b6 0049 0049 0024 0025 0024 006e 0048 0049 0024 0025 0024 0025 0049 0092 0049</Code>
-    <Code name="example command 3">0000 005e 001d 0000 00db 0049 0025 0024 0025 0049 0049 0024 0025 0024 0025 0024 0025 0024 00b6 0025 0025 0024 006e 0024 006e 0024 0025 0024 00b6 0049 0049 0024 0025 0049 0049 0049 0049 0024 0049 0024 0049 0024 0025 0024 0025 0024 00b6 0049 0049 0024 0025 0024 006e 0048 0049 0024 0025 0024 0025 0049 0092 0049</Code>
-</CodesType>
-  <CodesType name="Network Codes"></CodesType>
-  <CodesType name="Database Codes"></CodesType>
-</Device>
+<DeviceFeedback id="11151520" name="Living Room - AVR" device="11169342" startsWith="" endsWith="\x0D" tokenized="false"
+                delimiter="" length="0">
+    <DeviceVolumeFeedback name="Main Volume">
+        <DeviceVolumeFeedbackCode name="Code" prefix="MV" suffix="" tokenPosition="0" spanLength="1">
+            <DeviceVolumeFeedbackValue name="Value" tokenPosition="0" spanLength="1" min="-81" max="18" formula="x-80"
+                                       format="ascii" notation="decimal" radixPosition="2" units="dB" customUnits=""/>
+        </DeviceVolumeFeedbackCode>
+    </DeviceVolumeFeedback>
+    <DeviceVolumeFeedback name="FM/AM">
+        <DeviceVolumeFeedbackCode name="FM Part 1" prefix="TFAN00" suffix="" tokenPosition="0" spanLength="1">
+            <DeviceVolumeFeedbackValue name="Value" tokenPosition="0" spanLength="1" min="8750" max="9990" formula=""
+                                       format="ascii" notation="decimal" radixPosition="2" units="custom"
+                                       customUnits="MHz"/>
+        </DeviceVolumeFeedbackCode>
+        <DeviceVolumeFeedbackCode name="FM Part 2" prefix="TFAN0" suffix="" tokenPosition="0" spanLength="1">
+            <DeviceVolumeFeedbackValue name="Value" tokenPosition="0" spanLength="1" min="10010" max="10790" formula=""
+                                       format="ascii" notation="decimal" radixPosition="3" units="custom"
+                                       customUnits="MHz"/>
+        </DeviceVolumeFeedbackCode>
+        <DeviceVolumeFeedbackCode name="AM Part 1" prefix="TFAN0" suffix="" tokenPosition="0" spanLength="1">
+            <DeviceVolumeFeedbackValue name="Value" tokenPosition="0" spanLength="1" min="0" max="100" formula=""
+                                       format="ascii" notation="decimal" radixPosition="3" units="custom"
+                                       customUnits="kHz"/>
+        </DeviceVolumeFeedbackCode>
+        <DeviceVolumeFeedbackCode name="AM Part 2" prefix="TFAN" suffix="" tokenPosition="0" spanLength="1">
+            <DeviceVolumeFeedbackValue name="Value" tokenPosition="0" spanLength="1" min="0" max="100" formula=""
+                                       format="ascii" notation="decimal" radixPosition="4" units="custom"
+                                       customUnits="kHz"/>
+        </DeviceVolumeFeedbackCode>
+    </DeviceVolumeFeedback>
+    <DeviceVolumeFeedback name="Transducer">
+        <DeviceVolumeFeedbackCode name="Transducer" prefix="CVTR " suffix="" tokenPosition="0" spanLength="1">
+            <DeviceVolumeFeedbackValue name="Value" tokenPosition="0" spanLength="1" min="0" max="50" formula="x"
+                                       format="ascii" notation="decimal" radixPosition="-1" units="dB" customUnits=""/>
+        </DeviceVolumeFeedbackCode>
+    </DeviceVolumeFeedback>
+    <DeviceTextFeedback name="Text Feedback">
+        <DeviceTextFeedbackCode name="POWER" prefix="PW" suffix="" tokenPosition="0" spanLength="1">
+            <DeviceTextFeedbackValue name="POWER ON" target="ON" replace="POWER ON" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="POWER OFF" target="STANDBY" replace="POWER OFF" tokenPosition="0"
+                                     spanLength="1"/>
+        </DeviceTextFeedbackCode>
+        <DeviceTextFeedbackCode name="MUTE" prefix="MU" suffix="" tokenPosition="0" spanLength="1">
+            <DeviceTextFeedbackValue name="MUTE ON" target="ON" replace="MUTE ON" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="MUTE OFF" target="OFF" replace="MUTE OFF" tokenPosition="0" spanLength="1"/>
+        </DeviceTextFeedbackCode>
+        <DeviceTextFeedbackCode name="SOURCE" prefix="SI" suffix="" tokenPosition="0" spanLength="1">
+            <DeviceTextFeedbackValue name="PHONO" target="PHONO" replace="PHONO" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="CD" target="CD" replace="CD" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="TUNER" target="TUNER" replace="TUNER" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DVD" target="DVD" replace="XBMC" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="BD" target="BD" replace="Blu-Ray" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="TV" target="TV" replace="TV" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="SAT/CBL" target="SAT" replace="DirecTV" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DVR" target="DVR" replace="DVR" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="GAME" target="GAME" replace="GAME" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="GAME2" target="GAME2" replace="GAME2" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="V.AUX" target="V.AUX" replace="V.AUX" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOCK" target="DOCK" replace="DOCK" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="HDRADIO" target="HDRADIO" replace="HDRADIO" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="IPOD" target="IPOD" replace="IPOD" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="NET/USB" target="NET/USB" replace="NET/USB" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="RHAPSODY" target="RHAPSODY" replace="RHAPSODY" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="NAPSTER" target="NAPSTER" replace="NAPSTER" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="PANDORA" target="PANDORA" replace="PANDORA" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="LASTFM" target="LASTFM" replace="LASTFM" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="FLICKR" target="FLICKR" replace="FLICKR" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="FAVORITES" target="FAVORITES" replace="FAVORITES" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="IRADIO" target="IRADIO" replace="IRADIO" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="SERVER" target="SERVER" replace="SERVER" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="USB/IPOD" target="USB/IPOD" replace="USB/IPOD" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="USB" target="USB" replace="USB" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="IPD" target="IPD" replace="IPD" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="IPR" target="IPR" replace="IPR" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="FVP" target="FVP" replace="FVP" tokenPosition="0" spanLength="1"/>
+        </DeviceTextFeedbackCode>
+        <DeviceTextFeedbackCode name="LISTENING MODE" prefix="MS" suffix="" tokenPosition="0" spanLength="1">
+            <DeviceTextFeedbackValue name="DIRECT" target="DIRECT" replace="DIRECT" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="PURE DIRECT" target="PURE DIRECT" replace="PURE DIRECT" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="STEREO" target="STEREO" replace="STEREO" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="MULTI CH IN" target="MULTI CH IN" replace="MULTI CH IN" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="M CH IN+PL2X CINEMA" target="M CH IN+PL2X C" replace="M CH IN+PL2X CINEMA"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="M CH IN+PL2X MUSIC" target="M CH IN+PL2X M" replace="M CH IN+PL2X MUSIC"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="M CH IN+PL2Z H" target="M CH IN+PL2Z H" replace="M CH IN+PL2Z H"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="M CH IN+DOLBY EX" target="M CH IN+DOLBY EX" replace="M CH IN+DOLBY EX"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="MULTI CH IN 7.1" target="MULTI CH IN 7.1" replace="MULTI CH IN 7.1"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY PRO LOGIC" target="DOLBY PRO LOGIC" replace="DOLBY PRO LOGIC"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY PL II CINEMA" target="DOLBY PL2 C" replace="DOLBY PL II CINEMA"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY PL II MUSIC" target="DOLBY PL2 M" replace="DOLBY PL II MUSIC"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY PL II GAME" target="DOLBY PL2 G" replace="DOLBY PL II GAME"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY PL II X CINEMA" target="DOLBY PL2X C" replace="DOLBY PL II X CINEMA"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY PL2X MUSIC" target="DOLBY PL2X M" replace="DOLBY PL2X MUSIC"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY PL2X GAME" target="DOLBY PL2X G" replace="DOLBY PL2X GAME"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY PL2Z H" target="DOLBY PL2Z H" replace="DOLBY PL2Z H" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY DIGITAL" target="DOLBY DIGITAL" replace="DOLBY DIGITAL"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY D EX" target="DOLBY D EX" replace="DOLBY D EX" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY D+PL2X CINEMA" target="DOLBY D+PL2X C" replace="DOLBY D+PL2X CINEMA"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY D+PL2X MUSIC" target="DOLBY D+PL2X M" replace="DOLBY D+PL2X MUSIC"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY D+PL2Z H" target="DOLBY D+PL2Z H" replace="DOLBY D+PL2Z H"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DTS NEO:6 CINEMA" target="DTS NEO:6 C" replace="DTS NEO:6 CINEMA"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DTS NEO:6 MUSIC" target="DTS NEO:6 M" replace="DTS NEO:6 MUSIC"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DTS SURROUND" target="DTS SURROUND" replace="DTS SURROUND" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="DTS ES DSCRT6.1" target="DTS ES DSCRT6.1" replace="DTS ES DSCRT6.1"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DTS ES MTRX6.1" target="DTS ES MTRX6.1" replace="DTS ES MTRX6.1"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DTS+PL2X CINEMA" target="DTS+PL2X C" replace="DTS+PL2X CINEMA"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DTS+PL2X MUSIC" target="DTS+PL2X M" replace="DTS+PL2X MUSIC"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DTS+PL2Z H" target="DTS+PL2Z H" replace="DTS+PL2Z H" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="DTS+NEO:6" target="DTS+NEO:6" replace="DTS+NEO:6" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="DTS96/24" target="DTS96/24" replace="DTS96/24" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="DTS96 ES Matrix" target="DTS96 ES MTRX" replace="DTS96 ES Matrix"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="MULTI CHANNEL STEREO" target="MCH STEREO" replace="MCH STEREO"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="ROCK ARENA" target="ROCK ARENA" replace="ROCK ARENA" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="JAZZ CLUB" target="JAZZ CLUB" replace="JAZZ CLUB" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="MONO MOVIE" target="MONO MOVIE" replace="MONO MOVIE" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="MATRIX" target="MATRIX" replace="MATRIX" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="VIDEO GAME" target="VIDEO GAME" replace="VIDEO GAME" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="VIRTUAL" target="VIRTUAL" replace="VIRTUAL" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY D+" target="DOLBY D+" replace="DOLBY D+" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY D+ +EX" target="DOLBY D+ +EX" replace="DOLBY D+ +EX" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY D+ +PL2X CINEMA" target="DOLBY D+ +PL2X C"
+                                     replace="DOLBY D+ +PL2X CINEMA" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY D+ +PL2X MUSIC" target="DOLBY D+ +PL2X M"
+                                     replace="DOLBY D+ +PL2X MUSIC" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY D+ +PL2Z H" target="DOLBY D+ +PL2Z H" replace="DOLBY D+ +PL2Z H"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY HD" target="DOLBY HD" replace="DOLBY HD" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY HD+EX" target="DOLBY HD+EX" replace="DOLBY HD+EX" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY HD+PL2X CINEMA" target="DOLBY HD+PL2X C" replace="DOLBY HD+PL2X CINEMA"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY HD+PL2X MUSIC" target="DOLBY HD+PL2X M" replace="DOLBY HD+PL2X MUSIC"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DOLBY HD+PL2Z H" target="DOLBY HD+PL2Z H" replace="DOLBY HD+PL2Z H"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DTS HD" target="DTS HD" replace="DTS HD" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DTS HD Master" target="DTS HD MSTR" replace="DTS HD Master" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="DTS HD+NEO:6" target="DTS HD+NEO:6" replace="DTS HD+NEO:6" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="DTS HD+PL2X CINEMA" target="DTS HD+PL2X C" replace="DTS HD+PL2X CINEMA"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DTS HD+PL2X MUSIC" target="DTS HD+PL2X M" replace="DTS HD+PL2X MUSIC"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DTS HD+PL2Z H" target="DTS HD+PL2Z H" replace="DTS HD+PL2Z H"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DTS ES 8CH DSCRT" target="DTS ES 8CH DSCRT" replace="DTS ES 8CH DSCRT"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="DTS EXPRESS" target="DTS EXPRESS" replace="DTS EXPRESS" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="MPEG2 AAC" target="MPEG2 AAC" replace="MPEG2 AAC" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="AAC+DOLBY EX" target="AAC+DOLBY EX" replace="AAC+DOLBY EX" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="AAC+PL2X CINEMA" target="AAC+PL2X C" replace="AAC+PL2X CINEMA"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="AAC+PL2X MUSIC" target="AAC+PL2X M" replace="AAC+PL2X MUSIC"
+                                     tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="AAC+PL2Z H" target="AAC+PL2Z H" replace="AAC+PL2Z H" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="AUDYSSEY DSX" target="AUDYSSEY DSX" replace="AUDYSSEY DSX" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="PL DSX" target="PL DSX" replace="PL DSX" tokenPosition="0" spanLength="1"/>
+            <DeviceTextFeedbackValue name="PL2 C DSX" target="PL2 C DSX" replace="PL2 C DSX" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="PL2 M DSX" target="PL2 M DSX" replace="PL2 M DSX" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="PL2 G DSX" target="PL2 G DSX" replace="PL2 G DSX" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="NEO:6 C DSX" target="NEO:6 C DSX" replace="NEO:6 C DSX" tokenPosition="0"
+                                     spanLength="1"/>
+            <DeviceTextFeedbackValue name="NEO:6 M DSX" target="NEO:6 M DSX" replace="NEO:6 M DSX" tokenPosition="0"
+                                     spanLength="1"/>
+        </DeviceTextFeedbackCode>
+        <DeviceTextFeedbackCode name="TRANSDUCER TXT" prefix="CVTR" suffix="" tokenPosition="0" spanLength="1">
+            <DeviceTextFeedbackValue name="Value" target="*" replace="" tokenPosition="0" spanLength="1"/>
+        </DeviceTextFeedbackCode>
+    </DeviceTextFeedback>
+    <DeviceTextFeedback name="Pandora">
+        <DeviceTextFeedbackCode name="Line 1" prefix="NSE1" suffix="\x00*" tokenPosition="0" spanLength="1">
+            <DeviceTextFeedbackValue name="Value" target="*" replace="" tokenPosition="0" spanLength="1"/>
+        </DeviceTextFeedbackCode>
+        <DeviceTextFeedbackCode name="Line 2" prefix="NSE2" suffix="\x00*" tokenPosition="0" spanLength="1">
+            <DeviceTextFeedbackValue name="Value" target="*" replace="" tokenPosition="0" spanLength="1"/>
+        </DeviceTextFeedbackCode>
+        <DeviceTextFeedbackCode name="Line 3" prefix="NSE3" suffix="\x00*" tokenPosition="0" spanLength="1">
+            <DeviceTextFeedbackValue name="Value" target="*" replace="" tokenPosition="0" spanLength="1"/>
+        </DeviceTextFeedbackCode>
+        <DeviceTextFeedbackCode name="Line 4" prefix="NSE4" suffix="\x00*" tokenPosition="0" spanLength="1">
+            <DeviceTextFeedbackValue name="Value" target="*" replace="" tokenPosition="0" spanLength="1"/>
+        </DeviceTextFeedbackCode>
+        <DeviceTextFeedbackCode name="Line 5" prefix="NSE5" suffix="\x00*" tokenPosition="0" spanLength="1">
+            <DeviceTextFeedbackValue name="Value" target="*" replace="" tokenPosition="0" spanLength="1"/>
+        </DeviceTextFeedbackCode>
+        <DeviceTextFeedbackCode name="Line 6" prefix="NSE6" suffix="\x00*" tokenPosition="0" spanLength="1">
+            <DeviceTextFeedbackValue name="Value" target="*" replace="" tokenPosition="0" spanLength="1"/>
+        </DeviceTextFeedbackCode>
+        <DeviceTextFeedbackCode name="Line 7" prefix="NSE7" suffix="\x00*" tokenPosition="0" spanLength="1">
+            <DeviceTextFeedbackValue name="Value" target="*" replace="" tokenPosition="0" spanLength="1"/>
+        </DeviceTextFeedbackCode>
+        <DeviceTextFeedbackCode name="Line 8" prefix="NSE8" suffix="\x00*" tokenPosition="0" spanLength="1">
+            <DeviceTextFeedbackValue name="Value" target="*" replace="" tokenPosition="0" spanLength="1"/>
+        </DeviceTextFeedbackCode>
+    </DeviceTextFeedback>
+    <DeviceTextFeedback name="HD RADIO">
+        <DeviceTextFeedbackCode name="HD STATION NAME" prefix="HDSTL NAME" suffix="" tokenPosition="0" spanLength="1">
+            <DeviceTextFeedbackValue name="Value" target="*" replace="" tokenPosition="0" spanLength="1"/>
+        </DeviceTextFeedbackCode>
+        <DeviceTextFeedbackCode name="PROGRAM TYPE" prefix="HDPTY" suffix="" tokenPosition="0" spanLength="1">
+            <DeviceTextFeedbackValue name="Value" target="*" replace="" tokenPosition="0" spanLength="1"/>
+        </DeviceTextFeedbackCode>
+        <DeviceTextFeedbackCode name="Artist" prefix="HDARTIST" suffix="" tokenPosition="0" spanLength="1">
+            <DeviceTextFeedbackValue name="Value" target="*" replace="" tokenPosition="0" spanLength="1"/>
+        </DeviceTextFeedbackCode>
+        <DeviceTextFeedbackCode name="Title" prefix="HDTITLE" suffix="" tokenPosition="0" spanLength="1">
+            <DeviceTextFeedbackValue name="Value" target="*" replace="" tokenPosition="0" spanLength="1"/>
+        </DeviceTextFeedbackCode>
+        <DeviceTextFeedbackCode name="ALBUM" prefix="HDALBUM" suffix="" tokenPosition="0" spanLength="1">
+            <DeviceTextFeedbackValue name="Value" target="*" replace="" tokenPosition="0" spanLength="1"/>
+        </DeviceTextFeedbackCode>
+        <DeviceTextFeedbackCode name="GENRE" prefix="HDGENRE" suffix="" tokenPosition="0" spanLength="1">
+            <DeviceTextFeedbackValue name="Value" target="*" replace="" tokenPosition="0" spanLength="1"/>
+        </DeviceTextFeedbackCode>
+    </DeviceTextFeedback>
+</DeviceFeedback>
