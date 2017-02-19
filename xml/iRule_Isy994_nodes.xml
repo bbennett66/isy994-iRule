@@ -2,6 +2,9 @@
     <CodesType name="Global Cache Codes"/>
     <CodesType name="Hex Codes"/>
     <CodesType name="Network Codes">
+        <Code name="Query All Nodes">
+            rest/nodes
+        </Code>
         <Code name="FrontEntry - On">
             rest/nodes/ZW002_1/cmd/DON
         </Code>
@@ -407,6 +410,24 @@
         <Code name="AlarmIsExternalClosed - RunElse">
             rest/programs/0029/runThen
         </Code>
+        <Code name="FanTheaterOff - RunIf">
+            rest/programs/002D/run
+        </Code>
+        <Code name="FanTheaterOff - RunThen">
+            rest/programs/002D/runThen
+        </Code>
+        <Code name="FanTheaterOff - RunElse">
+            rest/programs/002D/runThen
+        </Code>
+        <Code name="FanTheaterOn - RunIf">
+            rest/programs/002A/run
+        </Code>
+        <Code name="FanTheaterOn - RunThen">
+            rest/programs/002A/runThen
+        </Code>
+        <Code name="FanTheaterOn - RunElse">
+            rest/programs/002A/runThen
+        </Code>
         <Code name="Dark Days - RunIf">
             rest/programs/000E/run
         </Code>
@@ -415,6 +436,15 @@
         </Code>
         <Code name="Dark Days - RunElse">
             rest/programs/000E/runThen
+        </Code>
+        <Code name="Sunset - RunIf">
+            rest/programs/0003/run
+        </Code>
+        <Code name="Sunset - RunThen">
+            rest/programs/0003/runThen
+        </Code>
+        <Code name="Sunset - RunElse">
+            rest/programs/0003/runThen
         </Code>
         <Code name="FanAmberOffice - RunIf">
             rest/programs/002B/run
@@ -442,24 +472,6 @@
         </Code>
         <Code name="FanMstrBdRmWd - RunElse">
             rest/programs/002C/runThen
-        </Code>
-        <Code name="FanTheaterOff - RunIf">
-            rest/programs/002D/run
-        </Code>
-        <Code name="FanTheaterOff - RunThen">
-            rest/programs/002D/runThen
-        </Code>
-        <Code name="FanTheaterOff - RunElse">
-            rest/programs/002D/runThen
-        </Code>
-        <Code name="FanTheaterOn - RunIf">
-            rest/programs/002A/run
-        </Code>
-        <Code name="FanTheaterOn - RunThen">
-            rest/programs/002A/runThen
-        </Code>
-        <Code name="FanTheaterOn - RunElse">
-            rest/programs/002A/runThen
         </Code>
         <Code name="TempBase - RunIf">
             rest/programs/0023/run
@@ -505,6 +517,15 @@
         </Code>
         <Code name="TempWinterMorning - RunElse">
             rest/programs/000A/runThen
+        </Code>
+        <Code name="AllLightsOff - RunIf">
+            rest/programs/000D/run
+        </Code>
+        <Code name="AllLightsOff - RunThen">
+            rest/programs/000D/runThen
+        </Code>
+        <Code name="AllLightsOff - RunElse">
+            rest/programs/000D/runThen
         </Code>
         <Code name="FanFront - RunIf">
             rest/programs/0022/run
@@ -560,15 +581,6 @@
         <Code name="FrontMorning - RunElse">
             rest/programs/0005/runThen
         </Code>
-        <Code name="AllLightsOff - RunIf">
-            rest/programs/000D/run
-        </Code>
-        <Code name="AllLightsOff - RunThen">
-            rest/programs/000D/runThen
-        </Code>
-        <Code name="AllLightsOff - RunElse">
-            rest/programs/000D/runThen
-        </Code>
         <Code name="Query All - RunIf">
             rest/programs/0002/run
         </Code>
@@ -586,15 +598,6 @@
         </Code>
         <Code name="LowTempWarning - RunElse">
             rest/programs/0009/runThen
-        </Code>
-        <Code name="Sunset - RunIf">
-            rest/programs/0003/run
-        </Code>
-        <Code name="Sunset - RunThen">
-            rest/programs/0003/runThen
-        </Code>
-        <Code name="Sunset - RunElse">
-            rest/programs/0003/runThen
         </Code>
         <Code name="GarageEntryDimOff - RunIf">
             rest/programs/0021/run

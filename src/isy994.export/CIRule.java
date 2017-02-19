@@ -16,7 +16,9 @@ public class CIRule {
     static private String sHeadXML =    "<Device id=\"0\" name=\"ISY994\" fixed=\"false\" shared=\"false\" type=\"Home Control\" vendor=\"Universal Devices\" model=\"isy994\">\n"+
             "<CodesType name=\"Global Cache Codes\"/>\n"+
             "<CodesType name=\"Hex Codes\"/>\n"+
-            "<CodesType name=\"Network Codes\">\n";
+            "<CodesType name=\"Network Codes\">\n"+
+            "\t<Code name=\"Query All Nodes\">\n\t\trest/nodes\n\t</Code>\n";
+
     static private String sTailXML =    "</CodesType>\n"+
             "<CodesType name=\"Database Codes\"/>\n"+
             "</Device>";
