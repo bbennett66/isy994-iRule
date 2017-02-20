@@ -17,7 +17,9 @@ public class CIRule {
             "<CodesType name=\"Global Cache Codes\"/>\n"+
             "<CodesType name=\"Hex Codes\"/>\n"+
             "<CodesType name=\"Network Codes\">\n"+
-            "\t<Code name=\"Query All Nodes\">\n\t\trest/nodes\n\t</Code>\n";
+            "\t<Code name=\"Query All Nodes\">\n\t\trest/nodes\n\t</Code>\n"+
+            "\t<Code name=\"Query Int Vars\">\n\t\trest/vars/definitions/1\n\t</Code>\n"+
+            "\t<Code name=\"Query State Vars\">\n\t\trest/vars/definitions/2\n\t</Code>\n";
 
     static private String sTailXML =    "</CodesType>\n"+
             "<CodesType name=\"Database Codes\"/>\n"+
