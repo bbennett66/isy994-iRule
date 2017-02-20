@@ -1,0 +1,4 @@
+<CList type="VAR_INT">
+    <e id="1" name="WinterHeatOn"/>
+    <e id="2" name="FrontLightsOn"/>
+</CList>
