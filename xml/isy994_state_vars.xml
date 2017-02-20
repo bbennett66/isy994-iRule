@@ -1,0 +1,20 @@
+<CList type="VAR_INT">
+    <e id="1" name="sFrontDoorTemp">
+        <val id="prec">0</val>
+    </e>
+    <e id="2" name="sBackYardTemp">
+        <val id="prec">0</val>
+    </e>
+    <e id="3" name="PantryLightsOffOverride">
+        <val id="prec">0</val>
+    </e>
+    <e id="4" name="sExternalZonesClosed">
+        <val id="prec">0</val>
+    </e>
+    <e id="5" name="sTheaterWindowTemp">
+        <val id="prec">0</val>
+    </e>
+    <e id="6" name="sEntertaining">
+        <val id="prec">0</val>
+    </e>
+</CList>
